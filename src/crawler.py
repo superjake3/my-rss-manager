@@ -40,20 +40,71 @@ def get_news_url_rule(site_id, url):
     parsed = urlparse(url)
     path = parsed.path
 
-    # 포켓몬 GO
     if site_id == "pokemon-go":
         return bool(
             re.search(r"/ko/news/[^/?#]+", path)
         )
 
-    # 포켓몬 본가 소식
-    # 기존 ID pokemon-home도 지원
     elif site_id in ("pokemon-mainline", "pokemon-home"):
         return bool(
             re.search(r"/ko/page/\d+\.html$", path)
         )
 
     return False
+
+
+# ==========================================
+# 포켓몬 본가 사이트 JavaScript 분석
+# ==========================================
+
+def inspect_mainline_scripts(site_url):
+
+    print("\n================================", flush=True)
+    print("포켓몬 본가 소식 JavaScript 분석", flush=True)
+    print("================================", flush=True)
+
+    js_files = [
+        "resources/js/app-config.js",
+        "resources/js/newsList-web_hm.js"
+    ]
+
+    for js_file in js_files:
+
+        js_url = urljoin(site_url, js_file)
+
+        print(f"\n파일 주소: {js_url}", flush=True)
+
+        try:
+
+            response = requests.get(
+                js_url,
+                headers=HEADERS,
+                timeout=30
+            )
+
+            response.raise_for_status()
+
+            content = response.text
+
+            print(
+                f"파일 크기: {len(content)} bytes",
+                flush=True
+            )
+
+            print("=== 파일 내용 시작 ===", flush=True)
+
+            # 로그가 지나치게 길어지는 것을 방지
+            print(content[:15000], flush=True)
+
+            print("=== 파일 내용 종료 ===", flush=True)
+
+        except Exception as error:
+
+            print(
+                f"파일 읽기 오류: "
+                f"{type(error).__name__} - {error}",
+                flush=True
+            )
 
 
 # ==========================================
@@ -65,8 +116,15 @@ def fetch_site(site):
     site_id = site["id"]
     site_url = site["url"]
 
-    print(f"\n[{site['name']}] 접속 시작", flush=True)
-    print(f"주소: {site_url}", flush=True)
+    print(
+        f"\n[{site['name']}] 접속 시작",
+        flush=True
+    )
+
+    print(
+        f"주소: {site_url}",
+        flush=True
+    )
 
     response = requests.get(
         site_url,
@@ -98,31 +156,17 @@ def fetch_site(site):
         else "없음"
     )
 
-    print(f"페이지 제목: {page_title}", flush=True)
+    print(
+        f"페이지 제목: {page_title}",
+        flush=True
+    )
 
-    # JavaScript 파일 주소 확인
-    print("\n=== JavaScript 파일 주소 ===", flush=True)
+    # 포켓몬 본가 소식 사이트 분석
+    if site_id in ("pokemon-mainline", "pokemon-home"):
 
-    scripts = soup.find_all("script", src=True)
+        inspect_mainline_scripts(site_url)
 
-    if scripts:
-        for script in scripts:
-            script_url = urljoin(
-                site_url,
-                script["src"]
-            )
-            print(script_url, flush=True)
-    else:
-        print("외부 JavaScript 파일을 찾지 못했습니다.", flush=True)
-
-    # HTML 일부 확인
-    print("\n=== HTML 내용 일부 ===", flush=True)
-    print(response.text[:1800], flush=True)
-
-    # 뉴스 링크 수집
-    items = []
-    seen = set()
-
+    # HTML 링크 확인
     links = soup.find_all(
         "a",
         href=True
@@ -133,9 +177,15 @@ def fetch_site(site):
         flush=True
     )
 
+    items = []
+    seen = set()
+
     for link in links:
 
-        raw_url = link.get("href", "").strip()
+        raw_url = link.get(
+            "href",
+            ""
+        ).strip()
 
         if not raw_url:
             continue
@@ -145,14 +195,12 @@ def fetch_site(site):
             raw_url
         )
 
-        # 사이트별 뉴스 주소 확인
         if not get_news_url_rule(
             site_id,
             article_url
         ):
             continue
 
-        # 제목 추출
         title = link.get_text(
             " ",
             strip=True
@@ -173,7 +221,6 @@ def fetch_site(site):
         if not title:
             continue
 
-        # 중복 제거
         if article_url in seen:
             continue
 
@@ -184,7 +231,6 @@ def fetch_site(site):
             "url": article_url
         })
 
-    # 최대 수집 개수 제한
     max_items = int(
         site.get("max_items", 30)
     )
@@ -197,9 +243,9 @@ def fetch_site(site):
     )
 
     if len(items) == 0:
+
         print(
-            "뉴스를 찾지 못했습니다. "
-            "페이지 구조 또는 API 확인이 필요합니다.",
+            "뉴스 목록을 HTML에서 찾지 못했습니다.",
             flush=True
         )
 
@@ -287,8 +333,8 @@ def main():
     print("RSS 크롤러 실행", flush=True)
     print("================================", flush=True)
 
-    # 설정 파일 확인
     if not CONFIG.exists():
+
         raise FileNotFoundError(
             f"설정 파일을 찾을 수 없습니다: {CONFIG}"
         )
@@ -308,7 +354,6 @@ def main():
         flush=True
     )
 
-    # 등록된 사이트 순회
     for site in sites:
 
         if not site.get("enabled", True):
@@ -351,15 +396,20 @@ def main():
                 flush=True
             )
 
-    print("================================", flush=True)
+    print("\n================================", flush=True)
     print("RSS 크롤러 실행 종료", flush=True)
     print("================================", flush=True)
 
 
 # ==========================================
-# 프로그램 시작점
+# 프로그램 시작
 # ==========================================
 
 if __name__ == "__main__":
-    print("===== CRAWLER START =====", flush=True)
+
+    print(
+        "===== CRAWLER START =====",
+        flush=True
+    )
+
     main()
