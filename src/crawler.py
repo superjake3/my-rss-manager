@@ -39,9 +39,24 @@ def fetch_site(site):
         url = urljoin(site["url"], link["href"])
         parsed = urlparse(url)
 
-        # Pokémon GO 뉴스 개별 게시물 주소만 수집
-        if not re.search(r"/ko/news/[^/?#]+", parsed.path):
-            continue
+       # 사이트별 뉴스 주소 규칙
+site_id = site["id"]
+
+if site_id == "pokemon-go":
+    is_news = bool(
+        re.search(r"/ko/news/[^/?#]+", parsed.path)
+    )
+
+elif site_id == "pokemon-home":
+    is_news = bool(
+        re.search(r"/ko/page/\d+\.html", parsed.path)
+    )
+
+else:
+    is_news = False
+
+if not is_news:
+    continue
 
         title = link.get_text(" ", strip=True)
 
