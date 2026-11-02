@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: rss-notion-sync
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -30,12 +34,20 @@ jobs:
         run: |
           python src/crawler.py
 
-      - name: Save RSS feeds
+      - name: Run Notion sync
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATA_SOURCE_ID: ${{ secrets.NOTION_DATA_SOURCE_ID }}
+        run: |
+          python src/notion_sync.py
+
+      - name: Save RSS and sync state
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add feeds/
           git diff --cached --quiet || (
-            git commit -m "Update RSS feeds" &&
+            git commit -m "Update RSS feeds and Notion sync state" &&
             git push
           )
