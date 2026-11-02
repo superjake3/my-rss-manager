@@ -11,10 +11,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-# ==========================================
-# 기본 설정
-# ==========================================
-
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config" / "sites.json"
 FEEDS = ROOT / "feeds"
@@ -31,21 +27,25 @@ HEADERS = {
 }
 
 
-# ==========================================
-# 사이트별 뉴스 주소 규칙
-# ==========================================
+def is_mainline_site(site):
+    """사이트 ID와 관계없이 본가 뉴스 사이트인지 확인"""
 
-def get_news_url_rule(site_id, url):
+    return "news.pokemon-home.com" in site.get("url", "")
+
+
+def get_news_url_rule(site, url):
 
     parsed = urlparse(url)
     path = parsed.path
+
+    site_id = site.get("id", "")
 
     if site_id == "pokemon-go":
         return bool(
             re.search(r"/ko/news/[^/?#]+", path)
         )
 
-    elif site_id in ("pokemon-mainline", "pokemon-home"):
+    if is_mainline_site(site):
         return bool(
             re.search(r"/ko/page/\d+\.html$", path)
         )
@@ -53,15 +53,9 @@ def get_news_url_rule(site_id, url):
     return False
 
 
-# ==========================================
-# 포켓몬 본가 사이트 JavaScript 분석
-# ==========================================
-
 def inspect_mainline_scripts(site_url):
 
-    print("\n================================", flush=True)
-    print("포켓몬 본가 소식 JavaScript 분석", flush=True)
-    print("================================", flush=True)
+    print("\n===== 본가 뉴스 JavaScript 분석 =====", flush=True)
 
     js_files = [
         "resources/js/app-config.js",
@@ -91,40 +85,25 @@ def inspect_mainline_scripts(site_url):
                 flush=True
             )
 
-            print("=== 파일 내용 시작 ===", flush=True)
-
-            # 로그가 지나치게 길어지는 것을 방지
+            print("===== 파일 내용 시작 =====", flush=True)
             print(content[:15000], flush=True)
-
-            print("=== 파일 내용 종료 ===", flush=True)
+            print("===== 파일 내용 종료 =====", flush=True)
 
         except Exception as error:
 
             print(
-                f"파일 읽기 오류: "
-                f"{type(error).__name__} - {error}",
+                f"JavaScript 읽기 오류: {type(error).__name__} - {error}",
                 flush=True
             )
 
 
-# ==========================================
-# 뉴스 수집
-# ==========================================
-
 def fetch_site(site):
 
-    site_id = site["id"]
     site_url = site["url"]
 
-    print(
-        f"\n[{site['name']}] 접속 시작",
-        flush=True
-    )
-
-    print(
-        f"주소: {site_url}",
-        flush=True
-    )
+    print(f"\n[{site['name']}] 접속 시작", flush=True)
+    print(f"사이트 ID: {site.get('id')}", flush=True)
+    print(f"주소: {site_url}", flush=True)
 
     response = requests.get(
         site_url,
@@ -134,46 +113,26 @@ def fetch_site(site):
 
     response.raise_for_status()
 
-    print(
-        f"HTTP 상태 코드: {response.status_code}",
-        flush=True
-    )
+    print(f"HTTP 상태 코드: {response.status_code}", flush=True)
+    print(f"HTML 크기: {len(response.text)} bytes", flush=True)
 
-    print(
-        f"HTML 크기: {len(response.text)} bytes",
-        flush=True
-    )
+    soup = BeautifulSoup(response.text, "html.parser")
 
-    soup = BeautifulSoup(
-        response.text,
-        "html.parser"
-    )
-
-    # 페이지 제목
     page_title = (
         soup.title.get_text(strip=True)
-        if soup.title
-        else "없음"
+        if soup.title else "없음"
     )
 
-    print(
-        f"페이지 제목: {page_title}",
-        flush=True
-    )
+    print(f"페이지 제목: {page_title}", flush=True)
 
-    # 포켓몬 본가 소식 사이트 분석
-    if site_id in ("pokemon-mainline", "pokemon-home"):
-
+    # 사이트 ID가 아니라 실제 주소로 판단
+    if is_mainline_site(site):
         inspect_mainline_scripts(site_url)
 
-    # HTML 링크 확인
-    links = soup.find_all(
-        "a",
-        href=True
-    )
+    links = soup.find_all("a", href=True)
 
     print(
-        f"\n페이지에서 발견한 전체 링크: {len(links)}개",
+        f"페이지에서 발견한 전체 링크: {len(links)}개",
         flush=True
     )
 
@@ -182,46 +141,25 @@ def fetch_site(site):
 
     for link in links:
 
-        raw_url = link.get(
-            "href",
-            ""
-        ).strip()
+        raw_url = link.get("href", "").strip()
 
         if not raw_url:
             continue
 
-        article_url = urljoin(
-            site_url,
-            raw_url
-        )
+        article_url = urljoin(site_url, raw_url)
 
-        if not get_news_url_rule(
-            site_id,
-            article_url
-        ):
+        if not get_news_url_rule(site, article_url):
             continue
 
-        title = link.get_text(
-            " ",
-            strip=True
-        )
+        title = link.get_text(" ", strip=True)
 
         if not title:
-            title = link.get(
-                "aria-label",
-                ""
-            ).strip()
+            title = link.get("aria-label", "").strip()
 
         if not title:
-            title = link.get(
-                "title",
-                ""
-            ).strip()
+            title = link.get("title", "").strip()
 
-        if not title:
-            continue
-
-        if article_url in seen:
+        if not title or article_url in seen:
             continue
 
         seen.add(article_url)
@@ -231,10 +169,7 @@ def fetch_site(site):
             "url": article_url
         })
 
-    max_items = int(
-        site.get("max_items", 30)
-    )
-
+    max_items = int(site.get("max_items", 30))
     items = items[:max_items]
 
     print(
@@ -242,90 +177,39 @@ def fetch_site(site):
         flush=True
     )
 
-    if len(items) == 0:
-
-        print(
-            "뉴스 목록을 HTML에서 찾지 못했습니다.",
-            flush=True
-        )
-
     return items
 
 
-# ==========================================
-# RSS XML 생성
-# ==========================================
-
 def make_feed(site, items):
 
-    rss = Element(
-        "rss",
-        version="2.0"
-    )
+    rss = Element("rss", version="2.0")
+    channel = SubElement(rss, "channel")
 
-    channel = SubElement(
-        rss,
-        "channel"
-    )
-
-    SubElement(
-        channel,
-        "title"
-    ).text = site["name"]
-
-    SubElement(
-        channel,
-        "link"
-    ).text = site["url"]
-
-    SubElement(
-        channel,
-        "description"
-    ).text = (
-        site["name"] + " RSS Feed"
-    )
+    SubElement(channel, "title").text = site["name"]
+    SubElement(channel, "link").text = site["url"]
+    SubElement(channel, "description").text = site["name"] + " RSS Feed"
 
     for item in items:
 
-        entry = SubElement(
-            channel,
-            "item"
-        )
+        entry = SubElement(channel, "item")
 
-        SubElement(
-            entry,
-            "title"
-        ).text = item["title"]
-
-        SubElement(
-            entry,
-            "link"
-        ).text = item["url"]
+        SubElement(entry, "title").text = item["title"]
+        SubElement(entry, "link").text = item["url"]
 
         guid = hashlib.sha256(
             item["url"].encode("utf-8")
         ).hexdigest()
 
-        SubElement(
-            entry,
-            "guid"
-        ).text = guid
+        SubElement(entry, "guid").text = guid
 
-    SubElement(
-        channel,
-        "lastBuildDate"
-    ).text = datetime.now(
-        timezone.utc
-    ).strftime(
-        "%a, %d %b %Y %H:%M:%S +0000"
+    SubElement(channel, "lastBuildDate").text = (
+        datetime.now(timezone.utc).strftime(
+            "%a, %d %b %Y %H:%M:%S +0000"
+        )
     )
 
     return rss
 
-
-# ==========================================
-# 전체 실행
-# ==========================================
 
 def main():
 
@@ -334,45 +218,25 @@ def main():
     print("================================", flush=True)
 
     if not CONFIG.exists():
+        raise FileNotFoundError(f"설정 파일 없음: {CONFIG}")
 
-        raise FileNotFoundError(
-            f"설정 파일을 찾을 수 없습니다: {CONFIG}"
-        )
-
-    with open(
-        CONFIG,
-        "r",
-        encoding="utf-8"
-    ) as file:
-
+    with open(CONFIG, "r", encoding="utf-8") as file:
         config = json.load(file)
 
     sites = config.get("sites", [])
 
-    print(
-        f"등록된 사이트: {len(sites)}개",
-        flush=True
-    )
+    print(f"등록된 사이트: {len(sites)}개", flush=True)
 
     for site in sites:
 
         if not site.get("enabled", True):
-
-            print(
-                f"[건너뜀] {site.get('name', '이름 없음')}",
-                flush=True
-            )
-
+            print(f"[건너뜀] {site['name']}", flush=True)
             continue
 
         try:
 
             items = fetch_site(site)
-
-            rss = make_feed(
-                site,
-                items
-            )
+            rss = make_feed(site, items)
 
             output = FEEDS / f'{site["id"]}.xml'
 
@@ -383,8 +247,7 @@ def main():
             )
 
             print(
-                f"[완료] {site['name']}: "
-                f"{len(items)}개 뉴스 저장",
+                f"[완료] {site['name']}: {len(items)}개 뉴스 저장",
                 flush=True
             )
 
@@ -396,20 +259,11 @@ def main():
                 flush=True
             )
 
-    print("\n================================", flush=True)
+    print("================================", flush=True)
     print("RSS 크롤러 실행 종료", flush=True)
     print("================================", flush=True)
 
 
-# ==========================================
-# 프로그램 시작
-# ==========================================
-
 if __name__ == "__main__":
-
-    print(
-        "===== CRAWLER START =====",
-        flush=True
-    )
-
+    print("===== CRAWLER START =====", flush=True)
     main()
