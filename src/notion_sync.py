@@ -611,12 +611,7 @@ def create_notion_page(item, article, title_name, is_test):
                 if article.get("event_date")
                 else None
             )
-        },
-        "수집일": {
-            "date": {
-                "start": datetime.now().date().isoformat()
-            }
-        },
+        }
         "출처": {
             "url": source_url
         }
