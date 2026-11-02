@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MY RSS MANAGER</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#131b2e;--panel2:#1a2540;--line:#293653;--text:#edf2ff;--muted:#9aa8c2;--accent:#8b9cff;--green:#58d6a1;--red:#ff7d8a;--yellow:#f4c96b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(900px 500px at 90% -10%,#26335f 0%,transparent 60%),var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1100px;margin:auto;padding:32px 22px 60px}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px}.brand{display:flex;align-items:center;gap:13px}.logo{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#a1adff,#6979e8);display:grid;place-items:center;color:#10162b;font-weight:900;font-size:21px}.brand h1{font-size:19px;letter-spacing:.08em;margin:0}.brand p{margin:2px 0 0;color:var(--muted);font-size:12px}.actions{display:flex;gap:9px;flex-wrap:wrap}
+button,.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:10px 14px;border-radius:10px;font:inherit;cursor:pointer;transition:.15s}button:hover{border-color:var(--accent);transform:translateY(-1px)}button.primary{background:var(--accent);border-color:var(--accent);color:#10162b;font-weight:750}button.danger{color:#ff9aa4}button:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.notice{padding:13px 15px;border:1px solid #39496d;background:#121c33;border-radius:12px;color:#c6d2ed;font-size:13px;margin-bottom:18px}.notice strong{color:#fff}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-bottom:20px}.stat,.panel{background:linear-gradient(180deg,rgba(24,34,57,.96),rgba(17,25,43,.96));border:1px solid var(--line);border-radius:16px}.stat{padding:17px}.stat .num{font-size:27px;font-weight:800}.stat .label{color:var(--muted);font-size:12px}.panel{padding:20px}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:15px}.panel h2{font-size:16px;margin:0}.sub{color:var(--muted);font-size:12px;margin-top:3px}
+.search{width:220px;max-width:45vw;background:#0d1527;border:1px solid var(--line);color:var(--text);border-radius:9px;padding:10px 12px;font:inherit}
+.list{display:grid;gap:10px}.site{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;background:#0e1729;border:1px solid #26334f;border-radius:13px;padding:15px}.site-main{min-width:0}.site-title{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-weight:700}.site-url{color:var(--muted);font-size:12px;overflow-wrap:anywhere;margin-top:5px}.site-meta{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:8px}.site-buttons{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}.site-buttons button{padding:8px 10px;font-size:12px}.pill{font-size:11px;border-radius:99px;padding:3px 8px;border:1px solid #355b55;color:var(--green);background:#102b2a}.pill.off{border-color:#555d72;color:#aab3c6;background:#242b3a}.empty{padding:36px 12px;text-align:center;color:var(--muted)}
+.footer{color:#71809c;font-size:11px;text-align:center;margin-top:18px}
+dialog{width:min(540px,calc(100% - 28px));border:1px solid var(--line);border-radius:17px;background:#141e33;color:var(--text);padding:0;box-shadow:0 24px 90px #0009}dialog::backdrop{background:#050914c9}.modal{padding:22px}.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.modal h2{font-size:17px;margin:0}.x{border:0;background:transparent;font-size:22px;padding:0 6px;color:var(--muted)}label{display:block;font-size:12px;color:#bdc9df;margin:13px 0 6px}input,select{width:100%;background:#0c1425;border:1px solid #344362;border-radius:9px;padding:11px 12px;color:var(--text);font:inherit}input:focus,select:focus{outline:2px solid #8494ff66;border-color:var(--accent)}.checkrow{display:flex;align-items:center;gap:9px;margin-top:14px;color:#cbd5e8}.checkrow input{width:auto}.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:20px}.hint{font-size:11px;color:var(--muted);margin-top:5px}.tokenline{display:flex;gap:8px}.tokenline input{flex:1}.status{font-size:12px;margin-top:12px;color:var(--muted);min-height:18px}.status.ok{color:var(--green)}.status.err{color:var(--red)}
+@media(max-width:650px){.wrap{padding:22px 14px 40px}.top{align-items:flex-start;flex-direction:column}.stats{gap:8px}.stat{padding:13px}.stat .num{font-size:23px}.site{grid-template-columns:1fr}.site-buttons{justify-content:flex-start}.panel{padding:14px}.panel-head{align-items:flex-start;flex-direction:column}.search{max-width:none;width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><div class="logo">R</div><div><h1>MY RSS MANAGER</h1><p>PERSONAL MULTI-SITE RSS GENERATOR</p></div></div>
+    <div class="actions"><button id="connectBtn">GitHub 연결</button><button class="primary" id="addBtn">＋ 사이트 추가</button></div>
+  </header>
+  <div class="notice"><strong>저장소:</strong> superjake3 / my-rss-manager &nbsp;·&nbsp; 설정은 GitHub의 <code>config/sites.json</code>에 저장됩니다. GitHub 연결 후 변경사항을 저장할 수 있습니다.</div>
+  <section class="stats">
+    <div class="stat"><div class="num" id="totalCount">—</div><div class="label">등록 사이트</div></div>
+    <div class="stat"><div class="num" id="activeCount">—</div><div class="label">활성 RSS</div></div>
+    <div class="stat"><div class="num" id="feedCount">—</div><div class="label">RSS 주소</div></div>
+  </section>
+  <section class="panel">
+    <div class="panel-head"><div><h2>등록된 사이트</h2><div class="sub" id="loadState">GitHub 연결 전 · 예시 목록 표시</div></div><input class="search" id="search" placeholder="사이트 이름 또는 주소 검색"></div>
+    <div class="list" id="siteList"></div>
+  </section>
+  <div class="footer">MY RSS MANAGER · GitHub Pages + GitHub API · 무료 플랜 기준</div>
+</div>
+
+<dialog id="tokenDialog">
+ <div class="modal">
+  <div class="modal-head"><h2>GitHub 저장소 연결</h2><button class="x" data-close="tokenDialog">×</button></div>
+  <p class="sub">Fine-grained personal access token을 입력하면 이 브라우저에서 저장소 설정을 읽고 수정할 수 있습니다. 토큰은 서버로 전송하거나 브라우저에 영구 저장하지 않습니다.</p>
+  <label>GitHub 토큰</label><input id="tokenInput" type="password" autocomplete="off" placeholder="github_pat_...">
+  <div class="hint">권한은 해당 저장소만 선택하고 Repository permissions → Contents: Read and write 로 설정하세요. 토큰은 이 탭을 닫거나 새로고침하면 사라집니다.</div>
+  <div class="modal-actions"><button data-close="tokenDialog">취소</button><button class="primary" id="tokenSave">연결 및 불러오기</button></div>
+  <div class="status" id="tokenStatus"></div>
+ </div>
+</dialog>
+
+<dialog id="siteDialog">
+ <form class="modal" id="siteForm">
+  <div class="modal-head"><h2 id="formTitle">사이트 추가</h2><button type="button" class="x" data-close="siteDialog">×</button></div>
+  <input type="hidden" id="originalId">
+  <label for="siteName">사이트 이름</label><input id="siteName" required maxlength="100" placeholder="예: Pokémon GO 공식 뉴스">
+  <label for="siteUrl">웹페이지 주소</label><input id="siteUrl" type="url" required placeholder="https://example.com/news">
+  <label for="siteId">고유 ID (영문, 숫자, 하이픈)</label><input id="siteId" required pattern="[a-z0-9-]+" maxlength="60" placeholder="example-news">
+  <label for="interval">수집 주기</label><select id="interval"><option value="60">1시간</option><option value="30">30분</option><option value="15">15분</option><option value="180">3시간</option><option value="360">6시간</option><option value="720">12시간</option><option value="1440">24시간</option></select>
+  <label for="parser">추출 방식</label><select id="parser"><option value="auto">자동 분석 (auto)</option><option value="pokemon">Pokémon GO 뉴스 전용</option></select>
+  <label for="maxItems">RSS에 보관할 게시물 수</label><input id="maxItems" type="number" min="1" max="100" value="30">
+  <label class="checkrow"><input id="enabled" type="checkbox" checked> 수집 활성화</label>
+  <div class="modal-actions"><button type="button" data-close="siteDialog">취소</button><button class="primary" type="submit">목록에 반영</button></div>
+ </form>
+</dialog>
+
+<script>
+const OWNER="superjake3", REPO="my-rss-manager", BRANCH="main", CONFIG_PATH="config/sites.json";
+const PAGES_BASE=`https://${OWNER}.github.io/${REPO}/feeds/`;
+let token="", sites=[], configSha="", connected=false;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const sample=[{id:"pokemon-go",name:"Pokemon GO 공식 뉴스",url:"https://pokemongo.com/ko/news?game_client=android&country_code=KR",enabled:true,interval_minutes:60,parser:"auto",max_items:30}];
+
+function render(){
+ const q=$("search").value.toLowerCase();
+ const visible=sites.filter(s=>(s.name+" "+s.url).toLowerCase().includes(q));
+ $("totalCount").textContent=sites.length;$("activeCount").textContent=sites.filter(s=>s.enabled!==false).length;$("feedCount").textContent=sites.length;
+ $("siteList").innerHTML=visible.length?visible.map(s=>{
+  const feed=PAGES_BASE+encodeURIComponent(s.id)+".xml";
+  return `<article class="site"><div class="site-main"><div class="site-title">${esc(s.name)} <span class="pill ${s.enabled===false?"off":""}">${s.enabled===false?"비활성":"활성"}</span></div><div class="site-url">${esc(s.url)}</div><div class="site-meta"><span>⏱ ${Number(s.interval_minutes||60)}분</span><span>방식: ${esc(s.parser||"auto")}</span><span>최대 ${Number(s.max_items||30)}개</span></div><div class="site-url">RSS: <a href="${esc(feed)}" target="_blank" rel="noopener" style="color:#aab8ff">${esc(feed)}</a></div></div><div class="site-buttons"><button data-action="toggle" data-id="${esc(s.id)}">${s.enabled===false?"활성화":"비활성화"}</button><button data-action="copy" data-id="${esc(s.id)}">주소 복사</button><button data-action="edit" data-id="${esc(s.id)}">수정</button><button class="danger" data-action="delete" data-id="${esc(s.id)}">삭제</button></div></article>`;
+ }).join(""):`<div class="empty">등록된 사이트가 없습니다.<br>‘사이트 추가’를 눌러 새 사이트를 등록하세요.</div>`;
+ $("loadState").textContent=connected?"GitHub 연결됨 · config/sites.json 불러옴":"GitHub 연결 전 · 예시 목록 표시";
+}
+function setStatus(el,msg,type=""){el.textContent=msg;el.className="status "+type}
+async function api(path,options={}){
+ const r=await fetch("https://api.github.com"+path,{...options,headers:{Accept:"application/vnd.github+json",Authorization:"Bearer "+token,"X-GitHub-Api-Version":"2022-11-28",...(options.headers||{})}});
+ const data=await r.json().catch(()=>({}));
+ if(!r.ok)throw new Error(data.message||`GitHub API 오류 (${r.status})`);
+ return data;
+}
+function decodeContent(b64){const bin=atob(b64.replace(/\n/g,""));const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));return new TextDecoder().decode(bytes)}
+function encodeContent(str){const bytes=new TextEncoder().encode(str);let bin="";bytes.forEach(b=>bin+=String.fromCharCode(b));return btoa(bin)}
+async function loadConfig(){
+ const d=await api(`/repos/${OWNER}/${REPO}/contents/${CONFIG_PATH}?ref=${BRANCH}`);
+ configSha=d.sha;const parsed=JSON.parse(decodeContent(d.content));sites=Array.isArray(parsed.sites)?parsed.sites:[];
+ connected=true;render();
+}
+async function saveConfig(){
+ if(!connected||!token)throw new Error("먼저 GitHub에 연결해 주세요.");
+ const body={message:"Update RSS site configuration",content:encodeContent(JSON.stringify({sites},null,2)+"\n"),branch:BRANCH};
+ if(configSha)body.sha=configSha;
+ const d=await api(`/repos/${OWNER}/${REPO}/contents/${CONFIG_PATH}`,{method:"PUT",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+ configSha=d.content.sha;
+}
+$("connectBtn").onclick=()=>{$("tokenInput").value="";setStatus($("tokenStatus"),"");$("tokenDialog").showModal()};
+$("tokenSave").onclick=async()=>{
+ token=$("tokenInput").value.trim();if(!token){setStatus($("tokenStatus"),"토큰을 입력해 주세요.","err");return}
+ setStatus($("tokenStatus"),"저장소 설정을 불러오는 중...");
+ try{await loadConfig();$("tokenDialog").close();$("connectBtn").textContent="GitHub 연결됨";alert("저장소 연결 및 설정 불러오기에 성공했습니다.");}
+ catch(e){token="";connected=false;setStatus($("tokenStatus"),e.message,"err")}
+};
+function openForm(site){
+ $("siteForm").reset();$("originalId").value=site?.id||"";
+ $("formTitle").textContent=site?"사이트 수정":"사이트 추가";
+ $("siteName").value=site?.name||"";$("siteUrl").value=site?.url||"";$("siteId").value=site?.id||"";
+ $("siteId").disabled=!!site;$("interval").value=String(site?.interval_minutes||60);
+ $("parser").value=site?.parser||"auto";$("maxItems").value=site?.max_items||30;$("enabled").checked=site?.enabled!==false;
+ $("siteDialog").showModal();
+}
+$("addBtn").onclick=()=>openForm(null);
+$("siteForm").onsubmit=async e=>{
+ e.preventDefault();
+ const oldId=$("originalId").value,id=$("siteId").value.trim();
+ if(sites.some(s=>s.id===id&&s.id!==oldId)){alert("이미 사용 중인 ID입니다.");return}
+ let site={id,name:$("siteName").value.trim(),url:$("siteUrl").value.trim(),enabled:$("enabled").checked,interval_minutes:Number($("interval").value),parser:$("parser").value,max_items:Number($("maxItems").value)};
+ if(oldId){const i=sites.findIndex(s=>s.id===oldId);sites[i]=site}else sites.push(site);
+ render();$("siteDialog").close();
+ if(connected){try{await saveConfig();alert("GitHub 저장소에 설정을 저장했습니다.")}catch(err){alert("저장 실패: "+err.message+"\\n변경 내용은 화면에 남아 있습니다.")}}
+ else alert("화면에 반영했습니다. GitHub 연결 후 저장해야 실제 설정에 적용됩니다.");
+};
+$("siteList").onclick=async e=>{
+ const b=e.target.closest("button[data-action]");if(!b)return;const s=sites.find(x=>x.id===b.dataset.id);if(!s)return;
+ if(b.dataset.action==="edit")openForm(s);
+ if(b.dataset.action==="copy"){const url=PAGES_BASE+encodeURIComponent(s.id)+".xml";try{await navigator.clipboard.writeText(url);alert("RSS 주소를 복사했습니다.")}catch{prompt("RSS 주소",url)}}
+ if(b.dataset.action==="toggle"){s.enabled=s.enabled===false;render();if(connected){try{await saveConfig()}catch(err){alert("저장 실패: "+err.message)}}}
+ if(b.dataset.action==="delete"){if(!confirm(`‘${s.name}’ 사이트를 삭제할까요? 설정에서만 삭제되며 이미 생성된 XML 파일은 자동 삭제되지 않습니다.`))return;sites=sites.filter(x=>x.id!==s.id);render();if(connected){try{await saveConfig()}catch(err){alert("저장 실패: "+err.message)}}}
+};
+$("search").oninput=render;
+document.querySelectorAll("[data-close]").forEach(b=>b.onclick=()=>$(b.dataset.close).close());
+sites=sample;render();
+</script>
+</body>
+</html>
