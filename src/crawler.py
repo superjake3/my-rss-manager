@@ -1,7 +1,6 @@
 
 import json
 import re
-import hashlib
 from pathlib import Path
 from datetime import datetime, timezone
 from urllib.parse import urljoin, urlparse
@@ -33,137 +32,157 @@ def load_config():
 
 
 def is_mainline_site(site):
-    url = site.get("url", "")
-    return "news.pokemon-home.com" in urlparse(url).netloc
+    return "news.pokemon-home.com" in urlparse(
+        site.get("url", "")
+    ).netloc
 
 
-def inspect_mainline_scripts(page_url, html):
-    print("\n===== 본가 뉴스 JavaScript 분석 =====", flush=True)
+def fetch_mainline_json(site):
+    page_url = site.get("url", "")
 
-    soup = BeautifulSoup(html, "html.parser")
+    # JavaScript의 './json/list.json' 경로를 기준으로 계산
+    json_url = urljoin(page_url, "./json/list.json")
 
-    # 페이지 HTML에 선언된 실제 JavaScript 경로를 읽는다.
-    script_urls = []
-
-    for script in soup.find_all("script", src=True):
-        script_url = urljoin(page_url, script["src"])
-
-        if "resources/js/" in script_url:
-            script_urls.append(script_url)
-
-    # HTML에서 경로를 찾지 못했을 때 사용할 기본 경로
-    if not script_urls:
-        script_urls = [
-            urljoin(page_url, "../resources/js/app-config.js"),
-            urljoin(page_url, "../resources/js/newsList-web_hm.js"),
-        ]
-
-    for script_url in dict.fromkeys(script_urls):
-        print("\n파일 주소:", script_url, flush=True)
-
-        try:
-            response = SESSION.get(script_url, timeout=20)
-            response.raise_for_status()
-
-            content = response.text
-
-            print("HTTP 상태 코드:", response.status_code)
-            print("파일 크기:", len(content), "bytes")
-            print("----- JavaScript 내용 시작 -----")
-            print(content[:20000])
-            print("----- JavaScript 내용 끝 -----")
-
-        except requests.RequestException as error:
-            print("JavaScript 읽기 오류:", error, flush=True)
-
-
-def get_news_links(site, page_url, html):
-    soup = BeautifulSoup(html, "html.parser")
-    links = []
-
-    for anchor in soup.find_all("a", href=True):
-        href = anchor.get("href", "").strip()
-        title = anchor.get_text(" ", strip=True)
-
-        if not href or not title:
-            continue
-
-        full_url = urljoin(page_url, href)
-
-        if urlparse(full_url).scheme not in ("http", "https"):
-            continue
-
-        if is_mainline_site(site):
-            # 본가 뉴스 페이지에서 확인된 링크만 우선 수집
-            if re.search(r"/ko/page/\d+\.html$", urlparse(full_url).path):
-                links.append({
-                    "title": title,
-                    "url": full_url
-                })
-
-        else:
-            # Pokémon GO 뉴스 링크
-            if (
-                "pokemongo.com" in urlparse(full_url).netloc
-                and re.search(r"/ko/news/[^/?#]+", full_url)
-            ):
-                links.append({
-                    "title": title,
-                    "url": full_url
-                })
-
-    # 중복 제거
-    unique = []
-    seen = set()
-
-    for item in links:
-        if item["url"] not in seen:
-            seen.add(item["url"])
-            unique.append(item)
-
-    return unique
-
-
-def fetch_site(site):
-    name = site.get("name", "이름 없는 사이트")
-    site_url = site.get("url", "")
-    site_id = site.get("id", "")
-
-    print(f"\n[{name}] 접속 시작", flush=True)
-    print("사이트 ID:", site_id)
-    print("주소:", site_url)
+    print("\n===== 본가 뉴스 JSON 수집 =====", flush=True)
+    print("JSON 주소:", json_url, flush=True)
 
     try:
-        response = SESSION.get(site_url, timeout=30)
-        response.raise_for_status()
-
-        html = response.text
-        soup = BeautifulSoup(html, "html.parser")
-
-        title = soup.title.get_text(strip=True) if soup.title else ""
+        response = SESSION.get(json_url, timeout=30)
 
         print("HTTP 상태 코드:", response.status_code)
-        print("HTML 크기:", len(html), "bytes")
-        print("페이지 제목:", title)
+        print("응답 크기:", len(response.content), "bytes")
 
-        # 본가 뉴스는 JavaScript로 목록을 구성하므로
-        # HTML에 선언된 실제 스크립트 주소부터 분석한다.
-        if is_mainline_site(site):
-            inspect_mainline_scripts(site_url, html)
+        response.raise_for_status()
 
-        links = get_news_links(site, site_url, html)
+        data = response.json()
 
-        print("페이지에서 발견한 전체 링크:", len(links))
+        print("JSON 최상위 자료형:", type(data).__name__)
+
+        if isinstance(data, dict):
+            print("JSON 최상위 키:", list(data.keys()))
+
+        # JavaScript에서 App.init(response.data)를 호출하는 구조
+        items = data.get("data", []) if isinstance(data, dict) else data
+
+        if not isinstance(items, list):
+            print("뉴스 목록이 배열 형태가 아닙니다.")
+            print("응답 일부:", str(data)[:5000])
+            return []
+
+        print("JSON 뉴스 항목 수:", len(items))
+
+        if items:
+            print("첫 번째 뉴스 항목의 필드:", list(items[0].keys()))
+            print("첫 번째 뉴스 항목:")
+            print(json.dumps(items[0], ensure_ascii=False, indent=2)[:5000])
+
+        results = []
+
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+
+            title = str(item.get("title", "")).strip()
+            link = str(item.get("link", "")).strip()
+
+            if not title or not link:
+                continue
+
+            full_url = urljoin(page_url, link)
+
+            if urlparse(full_url).scheme not in ("http", "https"):
+                continue
+
+            results.append({
+                "title": title,
+                "url": full_url,
+                "date": item.get("stAt", ""),
+                "description": item.get("kindTxt", "")
+            })
+
+        # 최신순 정렬: 원본 데이터의 stAt 값은 Unix timestamp(초)
+        results.sort(
+            key=lambda x: int(x["date"]) if str(x["date"]).isdigit() else 0,
+            reverse=True
+        )
 
         max_items = int(site.get("max_items", 30))
-        links = links[:max_items]
+        results = results[:max_items]
 
-        print(f"[{name}] 최종 수집:", len(links))
+        print("최종 수집 뉴스:", len(results))
 
-        return links
+        return results
 
     except requests.RequestException as error:
-        print(f"[오류] {name}: {error}", flush=True)
+        print("[JSON 요청 오류]", error, flush=True)
+        return []
+
+    except (ValueError, TypeError, KeyError) as error:
+        print("[JSON 분석 오류]", error, flush=True)
+        return []
+
+
+def fetch_go_news(site):
+    name = site.get("name", "Pokemon GO")
+    page_url = site.get("url", "")
+
+    print(f"\n[{name}] 접속 시작", flush=True)
+    print("사이트 ID:", site.get("id", ""))
+    print("주소:", page_url)
+
+    try:
+        response = SESSION.get(page_url, timeout=30)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        print("HTTP 상태 코드:", response.status_code)
+        print("HTML 크기:", len(response.content), "bytes")
+        print(
+            "페이지 제목:",
+            soup.title.get_text(strip=True) if soup.title else ""
+        )
+
+        results = []
+        seen = set()
+
+        for anchor in soup.find_all("a", href=True):
+            title = anchor.get_text(" ", strip=True)
+            href = anchor["href"].strip()
+
+            if not title or not href:
+                continue
+
+            full_url = urljoin(page_url, href)
+
+            if (
+                "pokemongo.com" not in urlparse(full_url).netloc
+                or not re.search(r"/ko/news/[^/?#]+", full_url)
+            ):
+                continue
+
+            if full_url in seen:
+                continue
+
+            seen.add(full_url)
+
+            results.append({
+                "title": title,
+                "url": full_url,
+                "date": "",
+                "description": ""
+            })
+
+        max_items = int(site.get("max_items", 30))
+        results = results[:max_items]
+
+        print("페이지에서 발견한 전체 링크:", len(seen))
+        print(f"[{name}] 최종 수집:", len(results))
+
+        return results
+
+    except requests.RequestException as error:
+        print("[오류]", error, flush=True)
         return []
 
 
@@ -190,13 +209,28 @@ def make_rss(site, items):
         SubElement(entry, "title").text = item["title"]
         SubElement(entry, "link").text = item["url"]
         SubElement(entry, "guid", isPermaLink="true").text = item["url"]
-        SubElement(entry, "description").text = item["title"]
+
+        description = item.get("description", "")
+        SubElement(entry, "description").text = description or item["title"]
+
+        timestamp = item.get("date", "")
+
+        if str(timestamp).isdigit():
+            try:
+                pub_date = datetime.fromtimestamp(
+                    int(timestamp),
+                    timezone.utc
+                ).strftime("%a, %d %b %Y %H:%M:%S GMT")
+
+                SubElement(entry, "pubDate").text = pub_date
+            except (ValueError, OverflowError):
+                pass
+
+    FEEDS_DIR.mkdir(parents=True, exist_ok=True)
 
     output_file = FEEDS_DIR / f"{site_id}.xml"
-    output_file.parent.mkdir(parents=True, exist_ok=True)
 
-    tree = ElementTree(rss)
-    tree.write(
+    ElementTree(rss).write(
         output_file,
         encoding="utf-8",
         xml_declaration=True
@@ -223,7 +257,12 @@ def main():
             print(f"[건너뜀] {site.get('name')} - 비활성화")
             continue
 
-        items = fetch_site(site)
+        if is_mainline_site(site):
+            print(f"\n[{site.get('name')}] 접속 시작")
+            items = fetch_mainline_json(site)
+        else:
+            items = fetch_go_news(site)
+
         make_rss(site, items)
 
     print("================================")
