@@ -1,7 +1,7 @@
 {
   "site_id": "pokemon-go",
   "site_name": "Pokemon GO 공식 뉴스",
-  "updated_at": "2026-11-02T12:56:40.752199+00:00",
+  "updated_at": "2026-11-02T22:02:46.853261+00:00",
   "items": [
     {
       "title": "올가을 수원에서 만나요! “Pokémon GO 와일드 에리어: 글로벌” 기념 한국 현장 이벤트",
@@ -238,6 +238,22 @@
     {
       "title": "\"메가 피날레\"에 이어 힘차게 \"팀 메가\" 이벤트를 즐겨요!",
       "url": "https://pokemongo.com/ko/news/mega-squads-2026",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "\"외출캐처\"가 진화합니다!",
+      "url": "https://pokemongo.com/ko/news/pgo-explorer-gadget-2026-update",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "별빛 아래서 펼쳐지는 \"황혼의 소원\" 이벤트!",
+      "url": "https://pokemongo.com/ko/news/twilight-wishes-2026",
       "date": "",
       "description": "",
       "source_id": "",
