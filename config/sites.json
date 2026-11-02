@@ -1,0 +1,13 @@
+{
+  "sites": [
+    {
+      "id": "pokemon-go",
+      "name": "Pokemon GO 공식 뉴스",
+      "url": "https://pokemongo.com/ko/news?game_client=android&country_code=KR",
+      "enabled": true,
+      "interval_minutes": 60,
+      "parser": "auto",
+      "max_items": 30
+    }
+  ]
+}
