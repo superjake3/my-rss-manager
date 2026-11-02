@@ -77,7 +77,16 @@ def fetch_site(site):
         response.text,
         "html.parser"
     )
+print("페이지 제목:", soup.title.get_text(strip=True) if soup.title else "없음")
 
+print("=== JavaScript 파일 주소 ===")
+
+for script in soup.find_all("script", src=True):
+    print(script["src"])
+
+print("=== HTML 내용 일부 ===")
+print(response.text[:1800])
+    
     items = []
     seen = set()
 
