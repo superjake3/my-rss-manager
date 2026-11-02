@@ -1,7 +1,7 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-02T05:01:42.194460+00:00",
+  "updated_at": "2026-11-02T05:03:17.210769+00:00",
   "items": [
     {
       "title": "점검 실시 알림",
@@ -241,6 +241,3486 @@
       "date": 1789542000,
       "description": "점검",
       "source_id": "857",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/856.html",
+      "date": 1789524000,
+      "description": "점검",
+      "source_id": "856",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 종료 알림",
+      "url": "https://news.pokemon-home.com/ko/page/855.html",
+      "date": 1789110000,
+      "description": "점검",
+      "source_id": "855",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/854.html",
+      "date": 1789092000,
+      "description": "점검",
+      "source_id": "854",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 라우드본이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/827.html",
+      "date": 1789084800,
+      "description": "기타 게임",
+      "source_id": "827",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 17 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/831.html",
+      "date": 1789020000,
+      "description": "기타 게임",
+      "source_id": "831",
+      "pub_date": ""
+    },
+    {
+      "title": "부정한 방법으로 「Pokémon Champions」를 다운로드한 유저 대응에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/835.html",
+      "date": 1788933600,
+      "description": "소식",
+      "source_id": "835",
+      "pub_date": ""
+    },
+    {
+      "title": "「포켓몬 트레이너스 컵 2027」 개최 개요",
+      "url": "https://news.pokemon-home.com/ko/page/833.html",
+      "date": 1788933600,
+      "description": "소식",
+      "source_id": "833",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2027 I」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/825.html",
+      "date": 1788933600,
+      "description": "온라인 대회",
+      "source_id": "825",
+      "pub_date": ""
+    },
+    {
+      "title": "「Monthly Challenge Series 2026.09」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/824.html",
+      "date": 1788933600,
+      "description": "온라인 대회",
+      "source_id": "824",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-6」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/823.html",
+      "date": 1788933600,
+      "description": "배틀 패스",
+      "source_id": "823",
+      "pub_date": ""
+    },
+    {
+      "title": "「랭크배틀 시즌 M-6」 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/822.html",
+      "date": 1788933600,
+      "description": "랭크배틀",
+      "source_id": "822",
+      "pub_date": ""
+    },
+    {
+      "title": "스탠더드 셀렉트 M-C에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/821.html",
+      "date": 1788933600,
+      "description": "셀렉트",
+      "source_id": "821",
+      "pub_date": ""
+    },
+    {
+      "title": "2027년 공식 대회의 참가 카테고리(연령 구분)에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/820.html",
+      "date": 1788933600,
+      "description": "소식",
+      "source_id": "820",
+      "pub_date": ""
+    },
+    {
+      "title": "9월 9일(수) 「Pokémon Champions」 업데이트 데이터 배포 안내",
+      "url": "https://news.pokemon-home.com/ko/page/817.html",
+      "date": 1788933600,
+      "description": "점검",
+      "source_id": "817",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/818.html",
+      "date": 1788746400,
+      "description": "점검",
+      "source_id": "818",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 마스카나가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/826.html",
+      "date": 1788480000,
+      "description": "기타 게임",
+      "source_id": "826",
+      "pub_date": ""
+    },
+    {
+      "title": "「레귤레이션 M-C」에 대해（9월 9일 갱신）",
+      "url": "https://news.pokemon-home.com/ko/page/816.html",
+      "date": 1788127200,
+      "description": "레귤레이션",
+      "source_id": "816",
+      "pub_date": ""
+    },
+    {
+      "title": "도전하라! 팔데아지방의 강력한 포켓몬들! 제4탄! 대도포켓몬 대도각참!",
+      "url": "https://news.pokemon-home.com/ko/page/810.html",
+      "date": 1787875200,
+      "description": "기타 게임",
+      "source_id": "810",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 16(특별 시즌) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/815.html",
+      "date": 1787810400,
+      "description": "기타 게임",
+      "source_id": "815",
+      "pub_date": ""
+    },
+    {
+      "title": "WCS2026 기념 셀렉트에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/813.html",
+      "date": 1787536800,
+      "description": "셀렉트",
+      "source_id": "813",
+      "pub_date": ""
+    },
+    {
+      "title": "도전하라! 팔데아지방의 강력한 포켓몬들! 제3탄! 긴목포켓몬 키키링!",
+      "url": "https://news.pokemon-home.com/ko/page/809.html",
+      "date": 1787270400,
+      "description": "기타 게임",
+      "source_id": "809",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 16(특별 시즌) 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/814.html",
+      "date": 1787205600,
+      "description": "기타 게임",
+      "source_id": "814",
+      "pub_date": ""
+    },
+    {
+      "title": "도전하라! 팔데아지방의 강력한 포켓몬들! 제2탄! 분노숭이포켓몬 저승갓숭!",
+      "url": "https://news.pokemon-home.com/ko/page/808.html",
+      "date": 1786665600,
+      "description": "기타 게임",
+      "source_id": "808",
+      "pub_date": ""
+    },
+    {
+      "title": "도전하라! 팔데아지방의 강력한 포켓몬들! 제1탄! 광석포켓몬 킬라플로르!",
+      "url": "https://news.pokemon-home.com/ko/page/807.html",
+      "date": 1786060800,
+      "description": "기타 게임",
+      "source_id": "807",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 15(특별 시즌) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/800.html",
+      "date": 1785996000,
+      "description": "기타 게임",
+      "source_id": "800",
+      "pub_date": ""
+    },
+    {
+      "title": "8월 5일(수) 「Pokémon Champions」 업데이트 데이터 배포 안내",
+      "url": "https://news.pokemon-home.com/ko/page/812.html",
+      "date": 1785909600,
+      "description": "소식",
+      "source_id": "812",
+      "pub_date": ""
+    },
+    {
+      "title": "「Monthly Challenge Series 2026.08」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/805.html",
+      "date": 1785909600,
+      "description": "온라인 대회",
+      "source_id": "805",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-5」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/804.html",
+      "date": 1785909600,
+      "description": "배틀 패스",
+      "source_id": "804",
+      "pub_date": ""
+    },
+    {
+      "title": "「랭크배틀 시즌 M-5」 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/803.html",
+      "date": 1785909600,
+      "description": "랭크배틀",
+      "source_id": "803",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/802.html",
+      "date": 1785722400,
+      "description": "점검",
+      "source_id": "802",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 15(특별 시즌) 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/799.html",
+      "date": 1785470400,
+      "description": "기타 게임",
+      "source_id": "799",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】도전하라! 팔데아지방의 강력한 포켓몬들! 특별한 이벤트 테라 레이드배틀과 이벤트 대량발생을 4주 연속 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/806.html",
+      "date": 1785456000,
+      "description": "기타 게임",
+      "source_id": "806",
+      "pub_date": ""
+    },
+    {
+      "title": "찾아보자! 다양한 증표를 가진 물타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/794.html",
+      "date": 1784246400,
+      "description": "기타 게임",
+      "source_id": "794",
+      "pub_date": ""
+    },
+    {
+      "title": "물 반 포켓몬 반!? 오야 호수에서 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/793.html",
+      "date": 1784246400,
+      "description": "기타 게임",
+      "source_id": "793",
+      "pub_date": ""
+    },
+    {
+      "title": "튀어올라라! 최강의 잉어킹...!?",
+      "url": "https://news.pokemon-home.com/ko/page/792.html",
+      "date": 1784246400,
+      "description": "기타 게임",
+      "source_id": "792",
+      "pub_date": ""
+    },
+    {
+      "title": "물타입 포켓몬들과 함께 여름을 즐기자! 특별한 이벤트 테라 레이드배틀과 이벤트 대량발생을 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/791.html",
+      "date": 1784246400,
+      "description": "기타 게임",
+      "source_id": "791",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 14(특별 시즌) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/790.html",
+      "date": 1784181600,
+      "description": "기타 게임",
+      "source_id": "790",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/811.html",
+      "date": 1784167200,
+      "description": "점검",
+      "source_id": "811",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】찾아보자! 다양한 증표를 가진 물타입 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/788.html",
+      "date": 1783641600,
+      "description": "기타 게임",
+      "source_id": "788",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】물 반 포켓몬 반!? 오야 호수에서 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/787.html",
+      "date": 1783641600,
+      "description": "기타 게임",
+      "source_id": "787",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】튀어올라라! 최강의 잉어킹...!?",
+      "url": "https://news.pokemon-home.com/ko/page/786.html",
+      "date": 1783641600,
+      "description": "기타 게임",
+      "source_id": "786",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】물타입 포켓몬들과 함께 여름을 즐기자! 특별한 이벤트 테라 레이드배틀과 이벤트 대량발생을 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/785.html",
+      "date": 1783641600,
+      "description": "기타 게임",
+      "source_id": "785",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 대검귀(히스이의 모습)가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/694.html",
+      "date": 1783641600,
+      "description": "기타 게임",
+      "source_id": "694",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 14(특별 시즌) 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/789.html",
+      "date": 1783576800,
+      "description": "기타 게임",
+      "source_id": "789",
+      "pub_date": ""
+    },
+    {
+      "title": "7월 8일(수) 「Pokémon Champions」 업데이트 데이터 배포 안내",
+      "url": "https://news.pokemon-home.com/ko/page/801.html",
+      "date": 1783490400,
+      "description": "점검",
+      "source_id": "801",
+      "pub_date": ""
+    },
+    {
+      "title": "「Monthly Challenge Series 2026.07」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/797.html",
+      "date": 1783490400,
+      "description": "온라인 대회",
+      "source_id": "797",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-4」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/796.html",
+      "date": 1783490400,
+      "description": "배틀 패스",
+      "source_id": "796",
+      "pub_date": ""
+    },
+    {
+      "title": "「랭크배틀 시즌 M-4」 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/795.html",
+      "date": 1783490400,
+      "description": "랭크배틀",
+      "source_id": "795",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/798.html",
+      "date": 1783303200,
+      "description": "점검",
+      "source_id": "798",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 블레이범(히스이의 모습)이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/693.html",
+      "date": 1783036800,
+      "description": "기타 게임",
+      "source_id": "693",
+      "pub_date": ""
+    },
+    {
+      "title": "시스템 점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/782.html",
+      "date": 1782777600,
+      "description": "점검",
+      "source_id": "782",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 모크나이퍼(히스이의 모습)가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/692.html",
+      "date": 1782432000,
+      "description": "기타 게임",
+      "source_id": "692",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 13 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/772.html",
+      "date": 1782367200,
+      "description": "기타 게임",
+      "source_id": "772",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 인텔리레온이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/691.html",
+      "date": 1781827200,
+      "description": "기타 게임",
+      "source_id": "691",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 13 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/771.html",
+      "date": 1781762400,
+      "description": "기타 게임",
+      "source_id": "771",
+      "pub_date": ""
+    },
+    {
+      "title": "멤버십에 추가되는 배틀 음악에 대해 (9월 9일 갱신)",
+      "url": "https://news.pokemon-home.com/ko/page/783.html",
+      "date": 1781676000,
+      "description": "소식",
+      "source_id": "783",
+      "pub_date": ""
+    },
+    {
+      "title": "「Monthly Challenge Series 2026.06」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/780.html",
+      "date": 1781676000,
+      "description": "온라인 대회",
+      "source_id": "780",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-3」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/779.html",
+      "date": 1781676000,
+      "description": "배틀 패스",
+      "source_id": "779",
+      "pub_date": ""
+    },
+    {
+      "title": "「랭크배틀 시즌 M-3」 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/778.html",
+      "date": 1781676000,
+      "description": "랭크배틀",
+      "source_id": "778",
+      "pub_date": ""
+    },
+    {
+      "title": "스탠더드 셀렉트 M-B에 대해 (8월 5일 갱신)",
+      "url": "https://news.pokemon-home.com/ko/page/777.html",
+      "date": 1781676000,
+      "description": "셀렉트",
+      "source_id": "777",
+      "pub_date": ""
+    },
+    {
+      "title": "「레귤레이션 M-B」에 대해 (8월 5일 갱신)",
+      "url": "https://news.pokemon-home.com/ko/page/776.html",
+      "date": 1781676000,
+      "description": "레귤레이션",
+      "source_id": "776",
+      "pub_date": ""
+    },
+    {
+      "title": "6월 17일(수) 「Pokémon Champions」 업데이트 데이터 배포 안내",
+      "url": "https://news.pokemon-home.com/ko/page/775.html",
+      "date": 1781676000,
+      "description": "점검",
+      "source_id": "775",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전을 Nintendo Switch 버전과 동일한 어카운트로 플레이하려면?",
+      "url": "https://news.pokemon-home.com/ko/page/784.html",
+      "date": 1781488800,
+      "description": "소식",
+      "source_id": "784",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/774.html",
+      "date": 1781488800,
+      "description": "점검",
+      "source_id": "774",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 에이스번이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/690.html",
+      "date": 1781222400,
+      "description": "기타 게임",
+      "source_id": "690",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 고릴타가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/689.html",
+      "date": 1780617600,
+      "description": "기타 게임",
+      "source_id": "689",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 12 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/739.html",
+      "date": 1780552800,
+      "description": "기타 게임",
+      "source_id": "739",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 배포 기념 캠페인을 통해 라이츄를 메가진화시키자!",
+      "url": "https://news.pokemon-home.com/ko/page/773.html",
+      "date": 1780491600,
+      "description": "캠페인",
+      "source_id": "773",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 누리레느가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/688.html",
+      "date": 1780012800,
+      "description": "기타 게임",
+      "source_id": "688",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 12 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/738.html",
+      "date": 1779948000,
+      "description": "기타 게임",
+      "source_id": "738",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/781.html",
+      "date": 1779667200,
+      "description": "점검",
+      "source_id": "781",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 어흥염이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/687.html",
+      "date": 1779408000,
+      "description": "기타 게임",
+      "source_id": "687",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 모크나이퍼가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/686.html",
+      "date": 1778803200,
+      "description": "기타 게임",
+      "source_id": "686",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 11 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/737.html",
+      "date": 1778738400,
+      "description": "기타 게임",
+      "source_id": "737",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 종료 알림",
+      "url": "https://news.pokemon-home.com/ko/page/769.html",
+      "date": 1778652000,
+      "description": "점검",
+      "source_id": "769",
+      "pub_date": ""
+    },
+    {
+      "title": "「Monthly Challenge Series 2026.05」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/762.html",
+      "date": 1778652000,
+      "description": "온라인 대회",
+      "source_id": "762",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-2」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/761.html",
+      "date": 1778652000,
+      "description": "배틀 패스",
+      "source_id": "761",
+      "pub_date": ""
+    },
+    {
+      "title": "「랭크배틀 시즌 M-2」 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/760.html",
+      "date": 1778652000,
+      "description": "랭크배틀",
+      "source_id": "760",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.4.0.2)",
+      "url": "https://news.pokemon-home.com/ko/page/767.html",
+      "date": 1778479200,
+      "description": "소식",
+      "source_id": "767",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/768.html",
+      "date": 1778464800,
+      "description": "점검",
+      "source_id": "768",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 개굴닌자가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/685.html",
+      "date": 1778198400,
+      "description": "기타 게임",
+      "source_id": "685",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 11 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/736.html",
+      "date": 1778133600,
+      "description": "기타 게임",
+      "source_id": "736",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 마폭시가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/684.html",
+      "date": 1777593600,
+      "description": "기타 게임",
+      "source_id": "684",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon LEGENDS Z-A」의 「게임도감」을 완성하고 선물을 받자!",
+      "url": "https://news.pokemon-home.com/ko/page/757.html",
+      "date": 1777269600,
+      "description": "소식",
+      "source_id": "757",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 종료 알림",
+      "url": "https://news.pokemon-home.com/ko/page/766.html",
+      "date": 1777003200,
+      "description": "점검",
+      "source_id": "766",
+      "pub_date": ""
+    },
+    {
+      "title": "「스페셜 셀렉트 Global Challenge 2026」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/759.html",
+      "date": 1776996000,
+      "description": "셀렉트",
+      "source_id": "759",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/756.html",
+      "date": 1776988800,
+      "description": "소식",
+      "source_id": "756",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 브리가론이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/683.html",
+      "date": 1776988800,
+      "description": "기타 게임",
+      "source_id": "683",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Champions」 업데이트 데이터(Ver.1.0.3) 배포 안내",
+      "url": "https://news.pokemon-home.com/ko/page/764.html",
+      "date": 1776924000,
+      "description": "업데이트",
+      "source_id": "764",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 10 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/735.html",
+      "date": 1776924000,
+      "description": "기타 게임",
+      "source_id": "735",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 「Pokémon HOME」의 친구 교환 기능 복구 대해",
+      "url": "https://news.pokemon-home.com/ko/page/765.html",
+      "date": 1776909600,
+      "description": "소식",
+      "source_id": "765",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 대검귀가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/682.html",
+      "date": 1776384000,
+      "description": "기타 게임",
+      "source_id": "682",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 10 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/734.html",
+      "date": 1776319200,
+      "description": "기타 게임",
+      "source_id": "734",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.4.0.1)",
+      "url": "https://news.pokemon-home.com/ko/page/755.html",
+      "date": 1776072600,
+      "description": "소식",
+      "source_id": "755",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 「Pokémon HOME」의 친구 교환과 관련된 이상 현상에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/763.html",
+      "date": 1775916000,
+      "description": "소식",
+      "source_id": "763",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 염무왕이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/681.html",
+      "date": 1775779200,
+      "description": "기타 게임",
+      "source_id": "681",
+      "pub_date": ""
+    },
+    {
+      "title": "현재 발생 중인 이상 현상에 대해(4/10 갱신)",
+      "url": "https://news.pokemon-home.com/ko/page/758.html",
+      "date": 1775714400,
+      "description": "오류",
+      "source_id": "758",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-1」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/753.html",
+      "date": 1775613600,
+      "description": "배틀 패스",
+      "source_id": "753",
+      "pub_date": ""
+    },
+    {
+      "title": "「Warm-Up Challenge」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/752.html",
+      "date": 1775613600,
+      "description": "온라인 대회",
+      "source_id": "752",
+      "pub_date": ""
+    },
+    {
+      "title": "「레귤레이션 M-A」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/751.html",
+      "date": 1775613600,
+      "description": "레귤레이션",
+      "source_id": "751",
+      "pub_date": ""
+    },
+    {
+      "title": "스탠더드 셀렉트 M-A에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/750.html",
+      "date": 1775613600,
+      "description": "셀렉트",
+      "source_id": "750",
+      "pub_date": ""
+    },
+    {
+      "title": "랭크배틀  시즌 M-1 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/746.html",
+      "date": 1775613600,
+      "description": "랭크배틀",
+      "source_id": "746",
+      "pub_date": ""
+    },
+    {
+      "title": "「포켓몬 알아보기」에 관련 동영상이 추가되었습니다!",
+      "url": "https://news.pokemon-home.com/ko/page/749.html",
+      "date": 1775196000,
+      "description": "소식",
+      "source_id": "749",
+      "pub_date": ""
+    },
+    {
+      "title": "우두머리 「치코리타」, 「뚜꾸리」, 「리아코」를 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/748.html",
+      "date": 1775196000,
+      "description": "소식",
+      "source_id": "748",
+      "pub_date": ""
+    },
+    {
+      "title": "업데이트 알림(Ver.4.0.0)",
+      "url": "https://news.pokemon-home.com/ko/page/747.html",
+      "date": 1775196000,
+      "description": "업데이트",
+      "source_id": "747",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 샤로다가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/680.html",
+      "date": 1775174400,
+      "description": "기타 게임",
+      "source_id": "680",
+      "pub_date": ""
+    },
+    {
+      "title": "현재 확인 중인 이상 현상에 대하여(ver.4.0.0)",
+      "url": "https://news.pokemon-home.com/ko/page/754.html",
+      "date": 1775131200,
+      "description": "소식",
+      "source_id": "754",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 9 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/720.html",
+      "date": 1775109600,
+      "description": "기타 게임",
+      "source_id": "720",
+      "pub_date": ""
+    },
+    {
+      "title": "최종 시즌(시즌 41) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/665.html",
+      "date": 1775016000,
+      "description": "기타 게임",
+      "source_id": "665",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/745.html",
+      "date": 1775001600,
+      "description": "점검",
+      "source_id": "745",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 엠페르트가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/679.html",
+      "date": 1774843200,
+      "description": "기타 게임",
+      "source_id": "679",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 9 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/719.html",
+      "date": 1774504800,
+      "description": "기타 게임",
+      "source_id": "719",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 초염몽이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/678.html",
+      "date": 1773964800,
+      "description": "기타 게임",
+      "source_id": "678",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 토대부기가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/677.html",
+      "date": 1773360000,
+      "description": "기타 게임",
+      "source_id": "677",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 8(특별 시즌) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/715.html",
+      "date": 1773295200,
+      "description": "기타 게임",
+      "source_id": "715",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2026」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/743.html",
+      "date": 1772773200,
+      "description": "온라인 대회",
+      "source_id": "743",
+      "pub_date": ""
+    },
+    {
+      "title": "2026년 공식 대회의 참가 카테고리(연령 구분)에 대해 （9월 9일 갱신）",
+      "url": "https://news.pokemon-home.com/ko/page/741.html",
+      "date": 1772773200,
+      "description": "소식",
+      "source_id": "741",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 대짱이가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/676.html",
+      "date": 1772755200,
+      "description": "기타 게임",
+      "source_id": "676",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 8(특별 시즌) 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/714.html",
+      "date": 1772690400,
+      "description": "기타 게임",
+      "source_id": "714",
+      "pub_date": ""
+    },
+    {
+      "title": "2026년 3월 시즌(시즌 40) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/664.html",
+      "date": 1772337600,
+      "description": "기타 게임",
+      "source_id": "664",
+      "pub_date": ""
+    },
+    {
+      "title": "최종 시즌(시즌 41) 이후의 랭크배틀에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/650.html",
+      "date": 1772337600,
+      "description": "기타 게임",
+      "source_id": "650",
+      "pub_date": ""
+    },
+    {
+      "title": "사전 다운로드 특전으로 「망나뇽」과 「패스트 쿠폰」 100장을 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/718.html",
+      "date": 1772202600,
+      "description": "캠페인",
+      "source_id": "718",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon LEGENDS Z-A」 연동 캠페인! 「브리가론나이트」, 「마폭시나이트」, 「개굴닌자나이트」, 「플라엣테나이트」를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/716.html",
+      "date": 1772202600,
+      "description": "소식",
+      "source_id": "716",
+      "pub_date": ""
+    },
+    {
+      "title": "특별한 이차원의 뒤틀림이 발생!? 「메가한카리아스Z」에게 승리하고 「한카리아스나이트Z」를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/710.html",
+      "date": 1772202600,
+      "description": "기타 게임",
+      "source_id": "710",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 번치코가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/675.html",
+      "date": 1772150400,
+      "description": "기타 게임",
+      "source_id": "675",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 나무킹이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/674.html",
+      "date": 1771545600,
+      "description": "기타 게임",
+      "source_id": "674",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 7 개최 중! 번치코나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/712.html",
+      "date": 1771480800,
+      "description": "기타 게임",
+      "source_id": "712",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 장크로다일이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/673.html",
+      "date": 1770940800,
+      "description": "기타 게임",
+      "source_id": "673",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 7 개최 결정! 번치코나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/711.html",
+      "date": 1770876000,
+      "description": "기타 게임",
+      "source_id": "711",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 블레이범이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/698.html",
+      "date": 1770336000,
+      "description": "기타 게임",
+      "source_id": "698",
+      "pub_date": ""
+    },
+    {
+      "title": "2026년 2월 시즌(시즌 39) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/663.html",
+      "date": 1769918400,
+      "description": "기타 게임",
+      "source_id": "663",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 메가니움이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/672.html",
+      "date": 1769731200,
+      "description": "기타 게임",
+      "source_id": "672",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 6 개최 중! 대짱이나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/707.html",
+      "date": 1769666400,
+      "description": "기타 게임",
+      "source_id": "707",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 거북왕이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/671.html",
+      "date": 1769126400,
+      "description": "기타 게임",
+      "source_id": "671",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 6 개최 결정! 대짱이나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/706.html",
+      "date": 1769061600,
+      "description": "기타 게임",
+      "source_id": "706",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 리자몽이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/670.html",
+      "date": 1768521600,
+      "description": "기타 게임",
+      "source_id": "670",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 이상해꽃이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/668.html",
+      "date": 1767916800,
+      "description": "기타 게임",
+      "source_id": "668",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 5 개최 중! 나무킹나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/705.html",
+      "date": 1767852000,
+      "description": "기타 게임",
+      "source_id": "705",
+      "pub_date": ""
+    },
+    {
+      "title": "2026년 1월 시즌(시즌 38) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/635.html",
+      "date": 1767585600,
+      "description": "기타 게임",
+      "source_id": "635",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】「최강의 증표」를 가지고 있는 역대 파트너 포켓몬들의 진화한 모습들이 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/699.html",
+      "date": 1767571200,
+      "description": "기타 게임",
+      "source_id": "699",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 5 개최 결정! 나무킹나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/704.html",
+      "date": 1767247200,
+      "description": "기타 게임",
+      "source_id": "704",
+      "pub_date": ""
+    },
+    {
+      "title": "불가리아에 대한 결제 통화 변경 알림",
+      "url": "https://news.pokemon-home.com/ko/page/709.html",
+      "date": 1766383200,
+      "description": "소식",
+      "source_id": "709",
+      "pub_date": ""
+    },
+    {
+      "title": "2026년 공식 대회의 참가 카테고리(연령 구분)에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/701.html",
+      "date": 1766361600,
+      "description": "기타 게임",
+      "source_id": "701",
+      "pub_date": ""
+    },
+    {
+      "title": "굽이치는물결&무쇠잎새가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/649.html",
+      "date": 1766102400,
+      "description": "기타 게임",
+      "source_id": "649",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 4 개최 중! 드닐레이브나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/703.html",
+      "date": 1766037600,
+      "description": "기타 게임",
+      "source_id": "703",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】굽이치는물결&무쇠잎새가 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/648.html",
+      "date": 1765756800,
+      "description": "기타 게임",
+      "source_id": "648",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 드래펄트가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/647.html",
+      "date": 1765497600,
+      "description": "기타 게임",
+      "source_id": "647",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 4 개최 결정! 드닐레이브나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/702.html",
+      "date": 1765432800,
+      "description": "기타 게임",
+      "source_id": "702",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 드래펄트가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/646.html",
+      "date": 1764892800,
+      "description": "기타 게임",
+      "source_id": "646",
+      "pub_date": ""
+    },
+    {
+      "title": "EX 사이드 미션 「프로젝트 M」 배포! 전설의 포켓몬 「뮤츠」와 「뮤츠나이트X」, 「뮤츠나이트Y」를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/662.html",
+      "date": 1764684000,
+      "description": "기타 게임",
+      "source_id": "662",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 12월 시즌(시즌 37) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/630.html",
+      "date": 1764561600,
+      "description": "기타 게임",
+      "source_id": "630",
+      "pub_date": ""
+    },
+    {
+      "title": "레귤레이션 I에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/700.html",
+      "date": 1764547200,
+      "description": "기타 게임",
+      "source_id": "700",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 드래펄트가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/645.html",
+      "date": 1764547200,
+      "description": "기타 게임",
+      "source_id": "645",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 미끄래곤이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/644.html",
+      "date": 1764288000,
+      "description": "기타 게임",
+      "source_id": "644",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 3 개최 중! 브리가론나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/657.html",
+      "date": 1764223200,
+      "description": "기타 게임",
+      "source_id": "657",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.4.3)",
+      "url": "https://news.pokemon-home.com/ko/page/667.html",
+      "date": 1764136800,
+      "description": "업데이트",
+      "source_id": "667",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/666.html",
+      "date": 1763683200,
+      "description": "점검",
+      "source_id": "666",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 미끄래곤이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/643.html",
+      "date": 1763683200,
+      "description": "기타 게임",
+      "source_id": "643",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 3 개최 결정! 브리가론나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/656.html",
+      "date": 1763618400,
+      "description": "기타 게임",
+      "source_id": "656",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 미끄래곤이 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/642.html",
+      "date": 1763337600,
+      "description": "기타 게임",
+      "source_id": "642",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 삼삼드래가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/641.html",
+      "date": 1763078400,
+      "description": "기타 게임",
+      "source_id": "641",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 삼삼드래가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/640.html",
+      "date": 1762473600,
+      "description": "기타 게임",
+      "source_id": "640",
+      "pub_date": ""
+    },
+    {
+      "title": "EX 사이드 미션 「보석과도 같은 반짝임」 배포! 환상의 포켓몬 「디안시」와 「디안시나이트」를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/659.html",
+      "date": 1762437600,
+      "description": "기타 게임",
+      "source_id": "659",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 2 개최 결정! 마폭시나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/655.html",
+      "date": 1762408800,
+      "description": "기타 게임",
+      "source_id": "655",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 2 개최 결정! 마폭시나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/654.html",
+      "date": 1762149600,
+      "description": "기타 게임",
+      "source_id": "654",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 삼삼드래가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/639.html",
+      "date": 1762128000,
+      "description": "기타 게임",
+      "source_id": "639",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 11월 시즌(시즌 36) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/629.html",
+      "date": 1761969600,
+      "description": "기타 게임",
+      "source_id": "629",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 1 개최 중! 개굴닌자나이트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/653.html",
+      "date": 1760594400,
+      "description": "기타 게임",
+      "source_id": "653",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 고동치는달&최강의 무쇠무인이 출현 중! 패러독스포켓몬들이 총출동!",
+      "url": "https://news.pokemon-home.com/ko/page/637.html",
+      "date": 1759449600,
+      "description": "기타 게임",
+      "source_id": "637",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 10월 시즌(시즌 35) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/628.html",
+      "date": 1759291200,
+      "description": "기타 게임",
+      "source_id": "628",
+      "pub_date": ""
+    },
+    {
+      "title": "【중요】「테라스탈 클라이맥스」 엔트리 시작 일시 변경에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/658.html",
+      "date": 1759136400,
+      "description": "기타 게임",
+      "source_id": "658",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 고동치는달&최강의 무쇠무인이 출현! 패러독스포켓몬들이 총출동!",
+      "url": "https://news.pokemon-home.com/ko/page/636.html",
+      "date": 1759104000,
+      "description": "기타 게임",
+      "source_id": "636",
+      "pub_date": ""
+    },
+    {
+      "title": "「테라스탈 클라이맥스」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/652.html",
+      "date": 1758844800,
+      "description": "기타 게임",
+      "source_id": "652",
+      "pub_date": ""
+    },
+    {
+      "title": "100만 회 승리 달성! 색이 다른 위유이를 이상한 소포에서 받자!",
+      "url": "https://news.pokemon-home.com/ko/page/624.html",
+      "date": 1758240000,
+      "description": "기타 게임",
+      "source_id": "624",
+      "pub_date": ""
+    },
+    {
+      "title": "100만 회 승리 달성! 색이 다른 딩루를 이상한 소포에서 받자!",
+      "url": "https://news.pokemon-home.com/ko/page/623.html",
+      "date": 1757030400,
+      "description": "기타 게임",
+      "source_id": "623",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 9월 시즌(시즌 34) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/627.html",
+      "date": 1756699200,
+      "description": "기타 게임",
+      "source_id": "627",
+      "pub_date": ""
+    },
+    {
+      "title": "색이 다른 위유이가 등장 중! 다 함께 100만 회 승리하고 재앙의 보물을 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/619.html",
+      "date": 1756684800,
+      "description": "기타 게임",
+      "source_id": "619",
+      "pub_date": ""
+    },
+    {
+      "title": "불꽃타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/611.html",
+      "date": 1756684800,
+      "description": "기타 게임",
+      "source_id": "611",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.4.2)",
+      "url": "https://news.pokemon-home.com/ko/page/633.html",
+      "date": 1756274400,
+      "description": "업데이트",
+      "source_id": "633",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/631.html",
+      "date": 1755820800,
+      "description": "점검",
+      "source_id": "631",
+      "pub_date": ""
+    },
+    {
+      "title": "100만 회 승리 달성! 색이 다른 파오젠을 이상한 소포에서 받자!",
+      "url": "https://news.pokemon-home.com/ko/page/622.html",
+      "date": 1755820800,
+      "description": "기타 게임",
+      "source_id": "622",
+      "pub_date": ""
+    },
+    {
+      "title": "색이 다른 딩루가 등장 중! 다 함께 100만 회 승리하고 재앙의 보물을 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/618.html",
+      "date": 1755475200,
+      "description": "기타 게임",
+      "source_id": "618",
+      "pub_date": ""
+    },
+    {
+      "title": "땅타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/610.html",
+      "date": 1755475200,
+      "description": "기타 게임",
+      "source_id": "610",
+      "pub_date": ""
+    },
+    {
+      "title": "100만 회 승리 달성! 색이 다른 총지엔을 이상한 소포에서 받자!",
+      "url": "https://news.pokemon-home.com/ko/page/621.html",
+      "date": 1754611200,
+      "description": "기타 게임",
+      "source_id": "621",
+      "pub_date": ""
+    },
+    {
+      "title": "색이 다른 파오젠이 등장 중! 다 함께 100만 회 승리하고 재앙의 보물을 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/617.html",
+      "date": 1754265600,
+      "description": "기타 게임",
+      "source_id": "617",
+      "pub_date": ""
+    },
+    {
+      "title": "얼음타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/609.html",
+      "date": 1754265600,
+      "description": "기타 게임",
+      "source_id": "609",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 8월 시즌(시즌 33) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/615.html",
+      "date": 1754020800,
+      "description": "기타 게임",
+      "source_id": "615",
+      "pub_date": ""
+    },
+    {
+      "title": "레귤레이션 J에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/626.html",
+      "date": 1754006400,
+      "description": "기타 게임",
+      "source_id": "626",
+      "pub_date": ""
+    },
+    {
+      "title": "색이 다른 총지엔이 등장 중! 다 함께 100만 회 승리하고 재앙의 보물을 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/616.html",
+      "date": 1753228800,
+      "description": "기타 게임",
+      "source_id": "616",
+      "pub_date": ""
+    },
+    {
+      "title": "풀타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/608.html",
+      "date": 1753228800,
+      "description": "기타 게임",
+      "source_id": "608",
+      "pub_date": ""
+    },
+    {
+      "title": "의상 아이템 「저지 셋업」을 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/625.html",
+      "date": 1753189200,
+      "description": "기타 게임",
+      "source_id": "625",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】색이 다른 재액포켓몬 등장! 다 함께 100만 회 승리하고 재앙의 보물을 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/613.html",
+      "date": 1753189200,
+      "description": "기타 게임",
+      "source_id": "613",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】4가지 타입의 대량발생이 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/607.html",
+      "date": 1753189200,
+      "description": "기타 게임",
+      "source_id": "607",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 짜랑고우거가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/600.html",
+      "date": 1752796800,
+      "description": "기타 게임",
+      "source_id": "600",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.4.1)",
+      "url": "https://news.pokemon-home.com/ko/page/632.html",
+      "date": 1752645600,
+      "description": "업데이트",
+      "source_id": "632",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 짜랑고우거가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/599.html",
+      "date": 1752192000,
+      "description": "기타 게임",
+      "source_id": "599",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 짜랑고우거가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/598.html",
+      "date": 1751846400,
+      "description": "기타 게임",
+      "source_id": "598",
+      "pub_date": ""
+    },
+    {
+      "title": "전기타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/602.html",
+      "date": 1751587200,
+      "description": "기타 게임",
+      "source_id": "602",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 7월 시즌(시즌 32) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/614.html",
+      "date": 1751342400,
+      "description": "기타 게임",
+      "source_id": "614",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】전기타입 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/601.html",
+      "date": 1751241600,
+      "description": "기타 게임",
+      "source_id": "601",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 드닐레이브가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/597.html",
+      "date": 1750982400,
+      "description": "기타 게임",
+      "source_id": "597",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 드닐레이브가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/596.html",
+      "date": 1750377600,
+      "description": "기타 게임",
+      "source_id": "596",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 일부 iOS 대응 종료 알림",
+      "url": "https://news.pokemon-home.com/ko/page/620.html",
+      "date": 1750032000,
+      "description": "소식",
+      "source_id": "620",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 드닐레이브가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/595.html",
+      "date": 1750032000,
+      "description": "기타 게임",
+      "source_id": "595",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 폴리곤2가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/593.html",
+      "date": 1749081600,
+      "description": "기타 게임",
+      "source_id": "593",
+      "pub_date": ""
+    },
+    {
+      "title": "폴리곤2가 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/592.html",
+      "date": 1749081600,
+      "description": "기타 게임",
+      "source_id": "592",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.4.0)",
+      "url": "https://news.pokemon-home.com/ko/page/606.html",
+      "date": 1749016800,
+      "description": "업데이트",
+      "source_id": "606",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/605.html",
+      "date": 1748822400,
+      "description": "점검",
+      "source_id": "605",
+      "pub_date": ""
+    },
+    {
+      "title": "폴리곤이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/591.html",
+      "date": 1748822400,
+      "description": "기타 게임",
+      "source_id": "591",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 6월 시즌(시즌 31) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/603.html",
+      "date": 1748750400,
+      "description": "기타 게임",
+      "source_id": "603",
+      "pub_date": ""
+    },
+    {
+      "title": "벌레타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/583.html",
+      "date": 1748563200,
+      "description": "기타 게임",
+      "source_id": "583",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 한카리아스가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/577.html",
+      "date": 1748563200,
+      "description": "기타 게임",
+      "source_id": "577",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】벌레타입 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/582.html",
+      "date": 1748217600,
+      "description": "기타 게임",
+      "source_id": "582",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 한카리아스가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/576.html",
+      "date": 1747958400,
+      "description": "기타 게임",
+      "source_id": "576",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 한카리아스가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/575.html",
+      "date": 1747612800,
+      "description": "기타 게임",
+      "source_id": "575",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 메타그로스가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/574.html",
+      "date": 1747353600,
+      "description": "기타 게임",
+      "source_id": "574",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 메타그로스가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/573.html",
+      "date": 1746748800,
+      "description": "기타 게임",
+      "source_id": "573",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 메타그로스가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/572.html",
+      "date": 1746403200,
+      "description": "기타 게임",
+      "source_id": "572",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 5월 시즌(시즌 30) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/589.html",
+      "date": 1746072000,
+      "description": "기타 게임",
+      "source_id": "589",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.3.1)",
+      "url": "https://news.pokemon-home.com/ko/page/594.html",
+      "date": 1745971200,
+      "description": "업데이트",
+      "source_id": "594",
+      "pub_date": ""
+    },
+    {
+      "title": "골든 찬스!? 특정 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/581.html",
+      "date": 1745971200,
+      "description": "기타 게임",
+      "source_id": "581",
+      "pub_date": ""
+    },
+    {
+      "title": "보물 발견!? 모으령(상자폼)이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/579.html",
+      "date": 1745971200,
+      "description": "기타 게임",
+      "source_id": "579",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】골든 찬스!? 특정 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/580.html",
+      "date": 1745798400,
+      "description": "기타 게임",
+      "source_id": "580",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】보물 발견!? 모으령(상자폼)이 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/578.html",
+      "date": 1745798400,
+      "description": "기타 게임",
+      "source_id": "578",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 보만다가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/571.html",
+      "date": 1745539200,
+      "description": "기타 게임",
+      "source_id": "571",
+      "pub_date": ""
+    },
+    {
+      "title": "「포켓몬 알아보기」에 관련 동영상이 추가되었습니다!",
+      "url": "https://news.pokemon-home.com/ko/page/588.html",
+      "date": 1745398800,
+      "description": "소식",
+      "source_id": "588",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.3.0)",
+      "url": "https://news.pokemon-home.com/ko/page/587.html",
+      "date": 1745398800,
+      "description": "업데이트",
+      "source_id": "587",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/586.html",
+      "date": 1744934400,
+      "description": "점검",
+      "source_id": "586",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 보만다가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/570.html",
+      "date": 1744934400,
+      "description": "기타 게임",
+      "source_id": "570",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 보만다가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/569.html",
+      "date": 1744588800,
+      "description": "기타 게임",
+      "source_id": "569",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 마기라스가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/568.html",
+      "date": 1743724800,
+      "description": "기타 게임",
+      "source_id": "568",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2025 IV」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/560.html",
+      "date": 1743638400,
+      "description": "기타 게임",
+      "source_id": "560",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 4월 시즌(시즌 29) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/584.html",
+      "date": 1743480000,
+      "description": "기타 게임",
+      "source_id": "584",
+      "pub_date": ""
+    },
+    {
+      "title": "레귤레이션 I에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/585.html",
+      "date": 1743465600,
+      "description": "기타 게임",
+      "source_id": "585",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 마기라스가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/567.html",
+      "date": 1743120000,
+      "description": "기타 게임",
+      "source_id": "567",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 마기라스가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/566.html",
+      "date": 1742774400,
+      "description": "기타 게임",
+      "source_id": "566",
+      "pub_date": ""
+    },
+    {
+      "title": "【중요】개인정보 처리방침 개정 사항 안내",
+      "url": "https://news.pokemon-home.com/ko/page/565.html",
+      "date": 1742533200,
+      "description": "소식",
+      "source_id": "565",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Day」 기념! 검은 결정 테라 레이드배틀에 최강의 웨이니발이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/554.html",
+      "date": 1741910400,
+      "description": "기타 게임",
+      "source_id": "554",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2025 III」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/559.html",
+      "date": 1741824000,
+      "description": "기타 게임",
+      "source_id": "559",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Day」 기념! 검은 결정 테라 레이드배틀에 최강의 라우드본이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/553.html",
+      "date": 1741305600,
+      "description": "기타 게임",
+      "source_id": "553",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 3월 시즌(시즌 28) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/563.html",
+      "date": 1740801600,
+      "description": "기타 게임",
+      "source_id": "563",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Day」 기념! 빨강, 초록, 파랑 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/555.html",
+      "date": 1740700800,
+      "description": "기타 게임",
+      "source_id": "555",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Day」 기념! 검은 결정 테라 레이드배틀에 최강의 마스카나가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/552.html",
+      "date": 1740700800,
+      "description": "기타 게임",
+      "source_id": "552",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】「Pokémon Day」 기념! 빨강, 초록, 파랑 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/564.html",
+      "date": 1740668400,
+      "description": "기타 게임",
+      "source_id": "564",
+      "pub_date": ""
+    },
+    {
+      "title": "「스칼렛 커버」, 「바이올렛 커버」 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/556.html",
+      "date": 1740668400,
+      "description": "기타 게임",
+      "source_id": "556",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】「Pokémon Day」를 기념하여 특별한 이벤트 테라 레이드배틀 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/551.html",
+      "date": 1740668400,
+      "description": "기타 게임",
+      "source_id": "551",
+      "pub_date": ""
+    },
+    {
+      "title": "굽이치는물결&무쇠잎새가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/548.html",
+      "date": 1740096000,
+      "description": "기타 게임",
+      "source_id": "548",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2025 II」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/558.html",
+      "date": 1740009600,
+      "description": "기타 게임",
+      "source_id": "558",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】굽이치는물결&무쇠잎새가 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/547.html",
+      "date": 1739750400,
+      "description": "기타 게임",
+      "source_id": "547",
+      "pub_date": ""
+    },
+    {
+      "title": "해피 밸런타인!",
+      "url": "https://news.pokemon-home.com/ko/page/546.html",
+      "date": 1739491200,
+      "description": "기타 게임",
+      "source_id": "546",
+      "pub_date": ""
+    },
+    {
+      "title": "「게임도감」을 완성하고 선물을 받자! 제3탄은 「포켓몬스터소드・실드」와 「포켓몬스터 레츠고! 피카츄・레츠고! 이브이」!",
+      "url": "https://news.pokemon-home.com/ko/page/527.html",
+      "date": 1739340000,
+      "description": "소식",
+      "source_id": "527",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】해피 밸런타인!",
+      "url": "https://news.pokemon-home.com/ko/page/545.html",
+      "date": 1739145600,
+      "description": "기타 게임",
+      "source_id": "545",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/526.html",
+      "date": 1739145600,
+      "description": "점검",
+      "source_id": "526",
+      "pub_date": ""
+    },
+    {
+      "title": "새포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/544.html",
+      "date": 1738886400,
+      "description": "기타 게임",
+      "source_id": "544",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】새포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/543.html",
+      "date": 1738540800,
+      "description": "기타 게임",
+      "source_id": "543",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 2월 시즌(시즌 27) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/561.html",
+      "date": 1738382400,
+      "description": "기타 게임",
+      "source_id": "561",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】밸런타인데이 기념 마빌크의 이벤트 테라 레이드배틀 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/562.html",
+      "date": 1738108800,
+      "description": "기타 게임",
+      "source_id": "562",
+      "pub_date": ""
+    },
+    {
+      "title": "「게임도감」을 완성하고 선물을 받자! 제2탄은 「Pokémon LEGENDS 아르세우스」와 「포켓몬 BD・SP」!",
+      "url": "https://news.pokemon-home.com/ko/page/524.html",
+      "date": 1738044000,
+      "description": "소식",
+      "source_id": "524",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 우렁찬꼬리&무쇠보따리",
+      "url": "https://news.pokemon-home.com/ko/page/540.html",
+      "date": 1737676800,
+      "description": "기타 게임",
+      "source_id": "540",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/525.html",
+      "date": 1737676800,
+      "description": "점검",
+      "source_id": "525",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2025 I」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/557.html",
+      "date": 1737590400,
+      "description": "기타 게임",
+      "source_id": "557",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】 픽업! 우렁찬꼬리&무쇠보따리",
+      "url": "https://news.pokemon-home.com/ko/page/539.html",
+      "date": 1737331200,
+      "description": "기타 게임",
+      "source_id": "539",
+      "pub_date": ""
+    },
+    {
+      "title": "꼬이밍고가 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/536.html",
+      "date": 1737072000,
+      "description": "기타 게임",
+      "source_id": "536",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 나시(알로라의 모습)",
+      "url": "https://news.pokemon-home.com/ko/page/534.html",
+      "date": 1737072000,
+      "description": "기타 게임",
+      "source_id": "534",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】꼬이밍고가 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/535.html",
+      "date": 1736726400,
+      "description": "기타 게임",
+      "source_id": "535",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】 픽업! 나시(알로라의 모습)",
+      "url": "https://news.pokemon-home.com/ko/page/533.html",
+      "date": 1736726400,
+      "description": "기타 게임",
+      "source_id": "533",
+      "pub_date": ""
+    },
+    {
+      "title": "뱀포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/538.html",
+      "date": 1736467200,
+      "description": "기타 게임",
+      "source_id": "538",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 1월 시즌(시즌 26) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/541.html",
+      "date": 1736136000,
+      "description": "기타 게임",
+      "source_id": "541",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】뱀포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/537.html",
+      "date": 1736121600,
+      "description": "기타 게임",
+      "source_id": "537",
+      "pub_date": ""
+    },
+    {
+      "title": "2025년 공식 대회의 참가 카테고리(연령 구분)에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/531.html",
+      "date": 1734912000,
+      "description": "기타 게임",
+      "source_id": "531",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 레쿠쟈 강림!",
+      "url": "https://news.pokemon-home.com/ko/page/523.html",
+      "date": 1734652800,
+      "description": "기타 게임",
+      "source_id": "523",
+      "pub_date": ""
+    },
+    {
+      "title": "색이 다른 모습이 검은 포켓몬을 대량발생으로 발견해 보자!",
+      "url": "https://news.pokemon-home.com/ko/page/521.html",
+      "date": 1734652800,
+      "description": "기타 게임",
+      "source_id": "521",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 레쿠쟈 강림!",
+      "url": "https://news.pokemon-home.com/ko/page/522.html",
+      "date": 1734307200,
+      "description": "기타 게임",
+      "source_id": "522",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】색이 다른 모습이 검은 포켓몬을 대량발생으로 발견해 보자!",
+      "url": "https://news.pokemon-home.com/ko/page/520.html",
+      "date": 1734307200,
+      "description": "기타 게임",
+      "source_id": "520",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 저승갓숭&대도각참!",
+      "url": "https://news.pokemon-home.com/ko/page/516.html",
+      "date": 1734048000,
+      "description": "기타 게임",
+      "source_id": "516",
+      "pub_date": ""
+    },
+    {
+      "title": "블루베리 아카데미에서 키링키가 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/510.html",
+      "date": 1734048000,
+      "description": "기타 게임",
+      "source_id": "510",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】픽업! 저승갓숭&대도각참!",
+      "url": "https://news.pokemon-home.com/ko/page/515.html",
+      "date": 1733702400,
+      "description": "기타 게임",
+      "source_id": "515",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】블루베리 아카데미에서 키링키가 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/509.html",
+      "date": 1733702400,
+      "description": "기타 게임",
+      "source_id": "509",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 마릴리&토오!",
+      "url": "https://news.pokemon-home.com/ko/page/514.html",
+      "date": 1733443200,
+      "description": "기타 게임",
+      "source_id": "514",
+      "pub_date": ""
+    },
+    {
+      "title": "북신의 고장에서 우파가 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/508.html",
+      "date": 1733443200,
+      "description": "기타 게임",
+      "source_id": "508",
+      "pub_date": ""
+    },
+    {
+      "title": "「포켓몬 알아보기」에 관련 동영상이 추가되었습니다!",
+      "url": "https://news.pokemon-home.com/ko/page/550.html",
+      "date": 1733281200,
+      "description": "소식",
+      "source_id": "550",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/542.html",
+      "date": 1733097600,
+      "description": "점검",
+      "source_id": "542",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】픽업! 마릴리&토오!",
+      "url": "https://news.pokemon-home.com/ko/page/513.html",
+      "date": 1733097600,
+      "description": "기타 게임",
+      "source_id": "513",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】북신의 고장에서 우파가 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/507.html",
+      "date": 1733097600,
+      "description": "기타 게임",
+      "source_id": "507",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 12월 시즌(시즌 25) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/529.html",
+      "date": 1733025600,
+      "description": "기타 게임",
+      "source_id": "529",
+      "pub_date": ""
+    },
+    {
+      "title": "레귤레이션 G에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/530.html",
+      "date": 1733011200,
+      "description": "기타 게임",
+      "source_id": "530",
+      "pub_date": ""
+    },
+    {
+      "title": "럭키 대량발생 중! 많은 경험치로 포켓몬들을 육성하자!",
+      "url": "https://news.pokemon-home.com/ko/page/518.html",
+      "date": 1732838400,
+      "description": "기타 게임",
+      "source_id": "518",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 아머까오&찌리배리!",
+      "url": "https://news.pokemon-home.com/ko/page/512.html",
+      "date": 1732838400,
+      "description": "기타 게임",
+      "source_id": "512",
+      "pub_date": ""
+    },
+    {
+      "title": "팔데아지방에서 어리짱이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/506.html",
+      "date": 1732838400,
+      "description": "기타 게임",
+      "source_id": "506",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】럭키 대량발생! 많은 경험치로 포켓몬들을 육성하자!",
+      "url": "https://news.pokemon-home.com/ko/page/517.html",
+      "date": 1732492800,
+      "description": "기타 게임",
+      "source_id": "517",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】픽업! 아머까오&찌리배리!",
+      "url": "https://news.pokemon-home.com/ko/page/511.html",
+      "date": 1732492800,
+      "description": "기타 게임",
+      "source_id": "511",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】팔데아지방에서 어리짱이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/505.html",
+      "date": 1732492800,
+      "description": "기타 게임",
+      "source_id": "505",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 토대부기가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/502.html",
+      "date": 1732233600,
+      "description": "기타 게임",
+      "source_id": "502",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 레쿠쟈 강림! 특별한 이벤트 테라 레이드배틀과 이벤트 대량발생도 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/483.html",
+      "date": 1731938400,
+      "description": "기타 게임",
+      "source_id": "483",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 토대부기가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/501.html",
+      "date": 1731628800,
+      "description": "기타 게임",
+      "source_id": "501",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 토대부기가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/500.html",
+      "date": 1731283200,
+      "description": "기타 게임",
+      "source_id": "500",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 장크로다일이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/499.html",
+      "date": 1731024000,
+      "description": "기타 게임",
+      "source_id": "499",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 11월 시즌(시즌 24) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/504.html",
+      "date": 1730433600,
+      "description": "기타 게임",
+      "source_id": "504",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 장크로다일이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/498.html",
+      "date": 1730419200,
+      "description": "기타 게임",
+      "source_id": "498",
+      "pub_date": ""
+    },
+    {
+      "title": "「스타단 챌린지」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/503.html",
+      "date": 1730073600,
+      "description": "기타 게임",
+      "source_id": "503",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 장크로다일이 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/497.html",
+      "date": 1730073600,
+      "description": "기타 게임",
+      "source_id": "497",
+      "pub_date": ""
+    },
+    {
+      "title": "고스트타입 포켓몬 대량발생 중! 핼러윈을 즐기자!",
+      "url": "https://news.pokemon-home.com/ko/page/496.html",
+      "date": 1730073600,
+      "description": "기타 게임",
+      "source_id": "496",
+      "pub_date": ""
+    },
+    {
+      "title": "해피 핼러윈!",
+      "url": "https://news.pokemon-home.com/ko/page/494.html",
+      "date": 1730073600,
+      "description": "기타 게임",
+      "source_id": "494",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/528.html",
+      "date": 1729814400,
+      "description": "점검",
+      "source_id": "528",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】고스트타입 포켓몬 대량발생! 핼러윈을 즐기자!",
+      "url": "https://news.pokemon-home.com/ko/page/495.html",
+      "date": 1729468800,
+      "description": "기타 게임",
+      "source_id": "495",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】해피 핼러윈!",
+      "url": "https://news.pokemon-home.com/ko/page/493.html",
+      "date": 1729468800,
+      "description": "기타 게임",
+      "source_id": "493",
+      "pub_date": ""
+    },
+    {
+      "title": "평소에는 볼 수 없던 포켓몬이 이벤트 테라 레이드배틀에 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/492.html",
+      "date": 1729209600,
+      "description": "기타 게임",
+      "source_id": "492",
+      "pub_date": ""
+    },
+    {
+      "title": "평소에는 볼 수 없던 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/490.html",
+      "date": 1729209600,
+      "description": "기타 게임",
+      "source_id": "490",
+      "pub_date": ""
+    },
+    {
+      "title": "「게임도감」을 완성하고 선물을 받자! 제1탄은 「포켓몬스터스칼렛・바이올렛」!",
+      "url": "https://news.pokemon-home.com/ko/page/482.html",
+      "date": 1729072800,
+      "description": "소식",
+      "source_id": "482",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.2.2)",
+      "url": "https://news.pokemon-home.com/ko/page/481.html",
+      "date": 1729040400,
+      "description": "업데이트",
+      "source_id": "481",
+      "pub_date": ""
+    },
+    {
+      "title": "Take On the 2025 Grand Challenge II!",
+      "url": "https://news.pokemon-home.com/ko/page/519.html",
+      "date": 1729036800,
+      "description": "기타 게임",
+      "source_id": "519",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】평소에는 볼 수 없던 포켓몬이 이벤트 테라 레이드배틀에 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/491.html",
+      "date": 1728864000,
+      "description": "기타 게임",
+      "source_id": "491",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】평소에는 볼 수 없던 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/489.html",
+      "date": 1728864000,
+      "description": "기타 게임",
+      "source_id": "489",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/480.html",
+      "date": 1728864000,
+      "description": "점검",
+      "source_id": "480",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 초염몽이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/487.html",
+      "date": 1728604800,
+      "description": "기타 게임",
+      "source_id": "487",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 초염몽이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/486.html",
+      "date": 1728000000,
+      "description": "기타 게임",
+      "source_id": "486",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 10월 시즌(시즌 23) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/484.html",
+      "date": 1727755200,
+      "description": "기타 게임",
+      "source_id": "484",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 초염몽이 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/485.html",
+      "date": 1727654400,
+      "description": "기타 게임",
+      "source_id": "485",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 샤로다가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/478.html",
+      "date": 1727395200,
+      "description": "기타 게임",
+      "source_id": "478",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 샤로다가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/477.html",
+      "date": 1726790400,
+      "description": "기타 게임",
+      "source_id": "477",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 샤로다 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/476.html",
+      "date": 1726444800,
+      "description": "기타 게임",
+      "source_id": "476",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 어흥염이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/475.html",
+      "date": 1726185600,
+      "description": "기타 게임",
+      "source_id": "475",
+      "pub_date": ""
+    },
+    {
+      "title": "Take On the 2025 Grand Challenge I!",
+      "url": "https://news.pokemon-home.com/ko/page/488.html",
+      "date": 1726099200,
+      "description": "기타 게임",
+      "source_id": "488",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 어흥염이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/474.html",
+      "date": 1725580800,
+      "description": "기타 게임",
+      "source_id": "474",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 어흥염 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/473.html",
+      "date": 1725235200,
+      "description": "기타 게임",
+      "source_id": "473",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 9월 시즌(시즌 22) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/472.html",
+      "date": 1725163200,
+      "description": "기타 게임",
+      "source_id": "472",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 대응 OS 변경 알림",
+      "url": "https://news.pokemon-home.com/ko/page/479.html",
+      "date": 1725148800,
+      "description": "소식",
+      "source_id": "479",
+      "pub_date": ""
+    },
+    {
+      "title": "여름 이벤트 제4탄! 도전하라! 강력한 포켓몬들",
+      "url": "https://news.pokemon-home.com/ko/page/467.html",
+      "date": 1724371200,
+      "description": "기타 게임",
+      "source_id": "467",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】여름 이벤트 제4탄! 도전하라! 강력한 포켓몬들",
+      "url": "https://news.pokemon-home.com/ko/page/466.html",
+      "date": 1724025600,
+      "description": "기타 게임",
+      "source_id": "466",
+      "pub_date": ""
+    },
+    {
+      "title": "여름 이벤트 제3탄! 포켓몬 WCS2024 기념!",
+      "url": "https://news.pokemon-home.com/ko/page/465.html",
+      "date": 1723161600,
+      "description": "기타 게임",
+      "source_id": "465",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】여름 이벤트 제3탄! 포켓몬 WCS2024 기념!",
+      "url": "https://news.pokemon-home.com/ko/page/464.html",
+      "date": 1722816000,
+      "description": "기타 게임",
+      "source_id": "464",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 8월 시즌(시즌 21) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/468.html",
+      "date": 1722484800,
+      "description": "기타 게임",
+      "source_id": "468",
+      "pub_date": ""
+    },
+    {
+      "title": "레귤레이션 H에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/471.html",
+      "date": 1722470400,
+      "description": "기타 게임",
+      "source_id": "471",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.2.1)",
+      "url": "https://news.pokemon-home.com/ko/page/470.html",
+      "date": 1722470400,
+      "description": "업데이트",
+      "source_id": "470",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/469.html",
+      "date": 1722211200,
+      "description": "점검",
+      "source_id": "469",
+      "pub_date": ""
+    },
+    {
+      "title": "여름 이벤트 제2탄! 한판내기! 싱싱하고 팔팔한 포켓몬들",
+      "url": "https://news.pokemon-home.com/ko/page/463.html",
+      "date": 1721952000,
+      "description": "기타 게임",
+      "source_id": "463",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】여름 이벤트 제2탄! 한판내기! 싱싱하고 팔팔한 포켓몬들",
+      "url": "https://news.pokemon-home.com/ko/page/462.html",
+      "date": 1721606400,
+      "description": "기타 게임",
+      "source_id": "462",
+      "pub_date": ""
+    },
+    {
+      "title": "여름 이벤트 제1탄! 찾아라! 피카츄와 친구들",
+      "url": "https://news.pokemon-home.com/ko/page/461.html",
+      "date": 1720742400,
+      "description": "기타 게임",
+      "source_id": "461",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】여름 이벤트 제1탄! 찾아라! 피카츄와 친구들",
+      "url": "https://news.pokemon-home.com/ko/page/460.html",
+      "date": 1720396800,
+      "description": "기타 게임",
+      "source_id": "460",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】4대 여름 이벤트 개최 결정! 특별한 이벤트 테라 레이드배틀과 이벤트 대량발생을 매일 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/459.html",
+      "date": 1720396800,
+      "description": "기타 게임",
+      "source_id": "459",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 나무킹이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/441.html",
+      "date": 1720137600,
+      "description": "기타 게임",
+      "source_id": "441",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 7월 시즌(시즌 20) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/458.html",
+      "date": 1719806400,
+      "description": "기타 게임",
+      "source_id": "458",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 나무킹이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/440.html",
+      "date": 1719532800,
+      "description": "기타 게임",
+      "source_id": "440",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 나무킹이 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/439.html",
+      "date": 1719187200,
+      "description": "기타 게임",
+      "source_id": "439",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 염무왕이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/438.html",
+      "date": 1718928000,
+      "description": "기타 게임",
+      "source_id": "438",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 염무왕이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/437.html",
+      "date": 1718323200,
+      "description": "기타 게임",
+      "source_id": "437",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/457.html",
+      "date": 1717977600,
+      "description": "점검",
+      "source_id": "457",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 염무왕이 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/436.html",
+      "date": 1717977600,
+      "description": "기타 게임",
+      "source_id": "436",
+      "pub_date": ""
+    },
+    {
+      "title": "물타입 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/456.html",
+      "date": 1717718400,
+      "description": "기타 게임",
+      "source_id": "456",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 대짱이가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/454.html",
+      "date": 1717718400,
+      "description": "기타 게임",
+      "source_id": "454",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】물타입 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/455.html",
+      "date": 1717372800,
+      "description": "기타 게임",
+      "source_id": "455",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 6월 시즌(시즌 19) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/451.html",
+      "date": 1717214400,
+      "description": "기타 게임",
+      "source_id": "451",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 대짱이가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/453.html",
+      "date": 1717113600,
+      "description": "기타 게임",
+      "source_id": "453",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 대짱이가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/452.html",
+      "date": 1716768000,
+      "description": "기타 게임",
+      "source_id": "452",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 모래털가죽&무쇠가시",
+      "url": "https://news.pokemon-home.com/ko/page/435.html",
+      "date": 1716508800,
+      "description": "기타 게임",
+      "source_id": "435",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】픽업! 모래털가죽&무쇠가시",
+      "url": "https://news.pokemon-home.com/ko/page/434.html",
+      "date": 1716163200,
+      "description": "기타 게임",
+      "source_id": "434",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 누리레느가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/431.html",
+      "date": 1715904000,
+      "description": "기타 게임",
+      "source_id": "431",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 누리레느가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/430.html",
+      "date": 1715299200,
+      "description": "기타 게임",
+      "source_id": "430",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.2.0)",
+      "url": "https://news.pokemon-home.com/ko/page/449.html",
+      "date": 1715133600,
+      "description": "업데이트",
+      "source_id": "449",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 누리레느가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/429.html",
+      "date": 1715040000,
+      "description": "기타 게임",
+      "source_id": "429",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/450.html",
+      "date": 1714953600,
+      "description": "점검",
+      "source_id": "450",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 5월 시즌(시즌 18) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/448.html",
+      "date": 1714536000,
+      "description": "기타 게임",
+      "source_id": "448",
+      "pub_date": ""
+    },
+    {
+      "title": "굽이치는물결&무쇠잎새가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/428.html",
+      "date": 1714089600,
+      "description": "기타 게임",
+      "source_id": "428",
+      "pub_date": ""
+    },
+    {
+      "title": "골든 찬스!? 특정 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/426.html",
+      "date": 1714089600,
+      "description": "기타 게임",
+      "source_id": "426",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】굽이치는물결&무쇠잎새가 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/427.html",
+      "date": 1713744000,
+      "description": "기타 게임",
+      "source_id": "427",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】골든 찬스!? 특정 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/425.html",
+      "date": 1713744000,
+      "description": "기타 게임",
+      "source_id": "425",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 메가니움이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/424.html",
+      "date": 1712880000,
+      "description": "기타 게임",
+      "source_id": "424",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 메가니움이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/423.html",
+      "date": 1712275200,
+      "description": "기타 게임",
+      "source_id": "423",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 4월 시즌(시즌 17) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/432.html",
+      "date": 1711944000,
+      "description": "기타 게임",
+      "source_id": "432",
+      "pub_date": ""
+    },
+    {
+      "title": "레귤레이션 G에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/444.html",
+      "date": 1711929600,
+      "description": "기타 게임",
+      "source_id": "444",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 메가니움이 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/422.html",
+      "date": 1711929600,
+      "description": "기타 게임",
+      "source_id": "422",
+      "pub_date": ""
+    },
+    {
+      "title": "진화 전 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/421.html",
+      "date": 1711670400,
+      "description": "기타 게임",
+      "source_id": "421",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】진화 전 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/420.html",
+      "date": 1711324800,
+      "description": "기타 게임",
+      "source_id": "420",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/446.html",
+      "date": 1711065600,
+      "description": "점검",
+      "source_id": "446",
+      "pub_date": ""
+    },
+    {
+      "title": "태국 법령 대응에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/445.html",
+      "date": 1711065600,
+      "description": "소식",
+      "source_id": "445",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 사나운버섯&무쇠손",
+      "url": "https://news.pokemon-home.com/ko/page/419.html",
+      "date": 1711065600,
+      "description": "기타 게임",
+      "source_id": "419",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】픽업! 사나운버섯&무쇠손",
+      "url": "https://news.pokemon-home.com/ko/page/418.html",
+      "date": 1710720000,
+      "description": "기타 게임",
+      "source_id": "418",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2024 III」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/411.html",
+      "date": 1710374400,
+      "description": "기타 게임",
+      "source_id": "411",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Day」 기념! 검은 결정 테라 레이드배틀에 최강의 리자몽이 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/414.html",
+      "date": 1710288000,
+      "description": "기타 게임",
+      "source_id": "414",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Day」 기념! 검은 결정 테라 레이드배틀에 최강의 거북왕이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/413.html",
+      "date": 1709683200,
+      "description": "기타 게임",
+      "source_id": "413",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 3월 시즌(시즌 16) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/417.html",
+      "date": 1709265600,
+      "description": "기타 게임",
+      "source_id": "417",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 대응 OS/단말기 변경 알림",
+      "url": "https://news.pokemon-home.com/ko/page/443.html",
+      "date": 1709251200,
+      "description": "소식",
+      "source_id": "443",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/442.html",
+      "date": 1709251200,
+      "description": "점검",
+      "source_id": "442",
+      "pub_date": ""
+    },
+    {
+      "title": "「Pokémon Day」 기념! 검은 결정 테라 레이드배틀에 최강의 이상해꽃이 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/412.html",
+      "date": 1709078400,
+      "description": "기타 게임",
+      "source_id": "412",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】「Pokémon Day」를 기념하여 특별한 이벤트 테라 레이드배틀 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/415.html",
+      "date": 1709046000,
+      "description": "기타 게임",
+      "source_id": "415",
+      "pub_date": ""
+    },
+    {
+      "title": "둥근 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/408.html",
+      "date": 1708646400,
+      "description": "기타 게임",
+      "source_id": "408",
+      "pub_date": ""
+    },
+    {
+      "title": "「포켓몬 월드챔피언십2024」 게임 부문 출전권에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/433.html",
+      "date": 1708560000,
+      "description": "기타 게임",
+      "source_id": "433",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】둥근 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/407.html",
+      "date": 1708473600,
+      "description": "기타 게임",
+      "source_id": "407",
+      "pub_date": ""
+    },
+    {
+      "title": "평소에는 볼 수 없던 포켓몬이 이벤트 테라 레이드배틀에 등장!",
+      "url": "https://news.pokemon-home.com/ko/page/404.html",
+      "date": 1708041600,
+      "description": "기타 게임",
+      "source_id": "404",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2024 II」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/410.html",
+      "date": 1707955200,
+      "description": "기타 게임",
+      "source_id": "410",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】평소에는 볼 수 없던 포켓몬이 이벤트 테라 레이드배틀에 등장!",
+      "url": "https://news.pokemon-home.com/ko/page/403.html",
+      "date": 1707696000,
+      "description": "기타 게임",
+      "source_id": "403",
+      "pub_date": ""
+    },
+    {
+      "title": "해피 밸런타인!",
+      "url": "https://news.pokemon-home.com/ko/page/402.html",
+      "date": 1707696000,
+      "description": "기타 게임",
+      "source_id": "402",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 엠페르트가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/397.html",
+      "date": 1707436800,
+      "description": "기타 게임",
+      "source_id": "397",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】해피 밸런타인!",
+      "url": "https://news.pokemon-home.com/ko/page/401.html",
+      "date": 1707091200,
+      "description": "기타 게임",
+      "source_id": "401",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 엠페르트가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/396.html",
+      "date": 1706832000,
+      "description": "기타 게임",
+      "source_id": "396",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 2월 시즌(시즌 15) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/416.html",
+      "date": 1706760000,
+      "description": "기타 게임",
+      "source_id": "416",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 엠페르트가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/395.html",
+      "date": 1706486400,
+      "description": "기타 게임",
+      "source_id": "395",
+      "pub_date": ""
+    },
+    {
+      "title": "평소에는 볼 수 없던 포켓몬이 대량발생 중!",
+      "url": "https://news.pokemon-home.com/ko/page/393.html",
+      "date": 1706227200,
+      "description": "기타 게임",
+      "source_id": "393",
+      "pub_date": ""
+    },
+    {
+      "title": "픽업! 날개치는머리&무쇠머리",
+      "url": "https://news.pokemon-home.com/ko/page/355.html",
+      "date": 1706227200,
+      "description": "기타 게임",
+      "source_id": "355",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2024 I」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/409.html",
+      "date": 1705881600,
+      "description": "기타 게임",
+      "source_id": "409",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】평소에는 볼 수 없던 포켓몬이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/392.html",
+      "date": 1705881600,
+      "description": "기타 게임",
+      "source_id": "392",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】픽업! 날개치는머리&무쇠머리",
+      "url": "https://news.pokemon-home.com/ko/page/354.html",
+      "date": 1705881600,
+      "description": "기타 게임",
+      "source_id": "354",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 번치코가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/390.html",
+      "date": 1705622400,
+      "description": "기타 게임",
+      "source_id": "390",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 번치코가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/389.html",
+      "date": 1705017600,
+      "description": "기타 게임",
+      "source_id": "389",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/391.html",
+      "date": 1704981600,
+      "description": "점검",
+      "source_id": "391",
+      "pub_date": ""
+    },
+    {
+      "title": "「환상복슝」 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/385.html",
+      "date": 1704981600,
+      "description": "기타 게임",
+      "source_id": "385",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】검은 결정 테라 레이드배틀에 최강의 번치코가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/388.html",
+      "date": 1704672000,
+      "description": "기타 게임",
+      "source_id": "388",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 1월 시즌(시즌 14) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/399.html",
+      "date": 1704340800,
+      "description": "기타 게임",
+      "source_id": "399",
+      "pub_date": ""
+    },
+    {
+      "title": "기술 「드래곤옐」과 관련된 이상 현상에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/405.html",
+      "date": 1704326400,
+      "description": "기타 게임",
+      "source_id": "405",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/400.html",
+      "date": 1703462400,
+      "description": "점검",
+      "source_id": "400",
+      "pub_date": ""
+    },
+    {
+      "title": "2024년 공식 대회의 참가 카테고리(연령 구분)에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/386.html",
+      "date": 1703462400,
+      "description": "기타 게임",
+      "source_id": "386",
+      "pub_date": ""
+    },
+    {
+      "title": "드래곤타입 포켓몬 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/380.html",
+      "date": 1703462400,
+      "description": "기타 게임",
+      "source_id": "380",
+      "pub_date": ""
+    },
+    {
+      "title": "「블루베리 프롤로그」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/378.html",
+      "date": 1703462400,
+      "description": "기타 게임",
+      "source_id": "378",
+      "pub_date": ""
+    },
+    {
+      "title": "레귤레이션 F에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/377.html",
+      "date": 1703462400,
+      "description": "기타 게임",
+      "source_id": "377",
+      "pub_date": ""
+    },
+    {
+      "title": "굽이치는물결&무쇠잎새가 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/375.html",
+      "date": 1703462400,
+      "description": "기타 게임",
+      "source_id": "375",
+      "pub_date": ""
+    },
+    {
+      "title": "딜리버드 대량발생! 크리스마스를 즐기자!",
+      "url": "https://news.pokemon-home.com/ko/page/373.html",
+      "date": 1703203200,
+      "description": "기타 게임",
+      "source_id": "373",
+      "pub_date": ""
+    },
+    {
+      "title": "메리 크리스마스! 최강의 무쇠보따리가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/371.html",
+      "date": 1703203200,
+      "description": "기타 게임",
+      "source_id": "371",
+      "pub_date": ""
+    },
+    {
+      "title": "업데이트 데이터 배포로 인해 발생한 이상 현상과 향후 대응에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/398.html",
+      "date": 1703044800,
+      "description": "기타 게임",
+      "source_id": "398",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】드래곤타입 포켓몬 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/379.html",
+      "date": 1702857600,
+      "description": "기타 게임",
+      "source_id": "379",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】굽이치는물결&무쇠잎새가 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/374.html",
+      "date": 1702857600,
+      "description": "기타 게임",
+      "source_id": "374",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】딜리버드 대량발생! 크리스마스를 즐기자!",
+      "url": "https://news.pokemon-home.com/ko/page/372.html",
+      "date": 1702857600,
+      "description": "기타 게임",
+      "source_id": "372",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】메리 크리스마스! 최강의 무쇠보따리가 출현!",
+      "url": "https://news.pokemon-home.com/ko/page/370.html",
+      "date": 1702857600,
+      "description": "기타 게임",
+      "source_id": "370",
+      "pub_date": ""
+    },
+    {
+      "title": "업데이트 알림",
+      "url": "https://news.pokemon-home.com/ko/page/381.html",
+      "date": 1702515600,
+      "description": "업데이트",
+      "source_id": "381",
+      "pub_date": ""
+    },
+    {
+      "title": "「마스터볼」 1개 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/367.html",
+      "date": 1702515600,
+      "description": "기타 게임",
+      "source_id": "367",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/387.html",
+      "date": 1702252800,
+      "description": "점검",
+      "source_id": "387",
+      "pub_date": ""
+    },
+    {
+      "title": "축제 분위기에 포켓몬들이 대량발생!",
+      "url": "https://news.pokemon-home.com/ko/page/364.html",
+      "date": 1701993600,
+      "description": "기타 게임",
+      "source_id": "364",
+      "pub_date": ""
+    },
+    {
+      "title": "강림! 디아루가&펄기아",
+      "url": "https://news.pokemon-home.com/ko/page/363.html",
+      "date": 1701993600,
+      "description": "기타 게임",
+      "source_id": "363",
+      "pub_date": ""
+    },
+    {
+      "title": "색이 다른 「찬란한 루카리오」 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/366.html",
+      "date": 1701957600,
+      "description": "기타 게임",
+      "source_id": "366",
+      "pub_date": ""
+    },
+    {
+      "title": "환상의 포켓몬 「다크라이」 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/365.html",
+      "date": 1701957600,
+      "description": "기타 게임",
+      "source_id": "365",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 업데이트 알림(Ver.3.1.2)",
+      "url": "https://news.pokemon-home.com/ko/page/383.html",
+      "date": 1701651600,
+      "description": "업데이트",
+      "source_id": "383",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】레귤레이션 F에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/376.html",
+      "date": 1701403200,
+      "description": "기타 게임",
+      "source_id": "376",
+      "pub_date": ""
+    },
+    {
+      "title": "2023년 12월 시즌(시즌 13) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/353.html",
+      "date": 1701403200,
+      "description": "기타 게임",
+      "source_id": "353",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/382.html",
+      "date": 1701388800,
+      "description": "점검",
+      "source_id": "382",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 대검귀(히스이의 모습)가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/306.html",
+      "date": 1701388800,
+      "description": "기타 게임",
+      "source_id": "306",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 대검귀(히스이의 모습)가 출현 중!",
+      "url": "https://news.pokemon-home.com/ko/page/305.html",
+      "date": 1700784000,
+      "description": "기타 게임",
+      "source_id": "305",
       "pub_date": ""
     }
   ]
