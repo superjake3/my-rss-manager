@@ -1,0 +1,247 @@
+{
+  "site_id": "pokemon-news",
+  "site_name": "포켓몬 본가 소식",
+  "updated_at": "2026-11-02T04:55:40.066992+00:00",
+  "items": [
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/865.html",
+      "date": 1793584800,
+      "description": "점검",
+      "source_id": "865",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 삼삼드래가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/860.html",
+      "date": 1793318400,
+      "description": "기타 게임",
+      "source_id": "860",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 19(특별 시즌) 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/871.html",
+      "date": 1793253600,
+      "description": "기타 게임",
+      "source_id": "871",
+      "pub_date": ""
+    },
+    {
+      "title": "분떠도리를 잔뜩 진화시키고, 비비용(볼의 모양)을 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/858.html",
+      "date": 1793253600,
+      "description": "기타 게임",
+      "source_id": "858",
+      "pub_date": ""
+    },
+    {
+      "title": "「메가진화 배틀」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/852.html",
+      "date": 1793253600,
+      "description": "온라인 대회",
+      "source_id": "852",
+      "pub_date": ""
+    },
+    {
+      "title": "비비용 원정 캠페인! 트레이너 아이콘(비비용)을 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/850.html",
+      "date": 1793253600,
+      "description": "캠페인",
+      "source_id": "850",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 한카리아스가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/859.html",
+      "date": 1792713600,
+      "description": "기타 게임",
+      "source_id": "859",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 19(특별 시즌) 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/870.html",
+      "date": 1792648800,
+      "description": "기타 게임",
+      "source_id": "870",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 메타그로스가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/839.html",
+      "date": 1792108800,
+      "description": "기타 게임",
+      "source_id": "839",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 보만다가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/838.html",
+      "date": 1791504000,
+      "description": "기타 게임",
+      "source_id": "838",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 18 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/853.html",
+      "date": 1791439200,
+      "description": "기타 게임",
+      "source_id": "853",
+      "pub_date": ""
+    },
+    {
+      "title": "스마트폰 버전 일부 Android 단말기 대응 종료 알림",
+      "url": "https://news.pokemon-home.com/ko/page/873.html",
+      "date": 1791352800,
+      "description": "소식",
+      "source_id": "873",
+      "pub_date": ""
+    },
+    {
+      "title": "「포켓몬 알아보기」에 관련 동영상이 추가되었습니다!",
+      "url": "https://news.pokemon-home.com/ko/page/872.html",
+      "date": 1791352800,
+      "description": "소식",
+      "source_id": "872",
+      "pub_date": ""
+    },
+    {
+      "title": "「Global Challenge 2027 II」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/848.html",
+      "date": 1791352800,
+      "description": "온라인 대회",
+      "source_id": "848",
+      "pub_date": ""
+    },
+    {
+      "title": "「Monthly Challenge Series 2026.10」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/847.html",
+      "date": 1791352800,
+      "description": "온라인 대회",
+      "source_id": "847",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-7」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/846.html",
+      "date": 1791352800,
+      "description": "배틀 패스",
+      "source_id": "846",
+      "pub_date": ""
+    },
+    {
+      "title": "「랭크배틀 시즌 M-7」 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/845.html",
+      "date": 1791352800,
+      "description": "랭크배틀",
+      "source_id": "845",
+      "pub_date": ""
+    },
+    {
+      "title": "10월 7일(수) 「Pokémon Champions」 업데이트 데이터 배포 안내",
+      "url": "https://news.pokemon-home.com/ko/page/844.html",
+      "date": 1791352800,
+      "description": "점검",
+      "source_id": "844",
+      "pub_date": ""
+    },
+    {
+      "title": "「포켓몬스터 파이어레드・리프그린」의 「게임도감」을 완성하고 선물을 받자!",
+      "url": "https://news.pokemon-home.com/ko/page/842.html",
+      "date": 1791352800,
+      "description": "소식",
+      "source_id": "842",
+      "pub_date": ""
+    },
+    {
+      "title": "업데이트 알림(Ver.4.1.0)",
+      "url": "https://news.pokemon-home.com/ko/page/841.html",
+      "date": 1791352800,
+      "description": "업데이트",
+      "source_id": "841",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/843.html",
+      "date": 1791165600,
+      "description": "점검",
+      "source_id": "843",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 마기라스가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/837.html",
+      "date": 1790899200,
+      "description": "기타 게임",
+      "source_id": "837",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】시즌 18 개최 결정!",
+      "url": "https://news.pokemon-home.com/ko/page/851.html",
+      "date": 1790834400,
+      "description": "기타 게임",
+      "source_id": "851",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 실시 알림",
+      "url": "https://news.pokemon-home.com/ko/page/840.html",
+      "date": 1790730000,
+      "description": "점검",
+      "source_id": "840",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 망나뇽이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/836.html",
+      "date": 1790294400,
+      "description": "기타 게임",
+      "source_id": "836",
+      "pub_date": ""
+    },
+    {
+      "title": "「스페셜 셀렉트 Global Challenge 2027 I&II」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/834.html",
+      "date": 1789696800,
+      "description": "셀렉트",
+      "source_id": "834",
+      "pub_date": ""
+    },
+    {
+      "title": "【예고】「최강의 증표」를 가지고 있는 성장하면 강력해지는 포켓몬들의 진화한 모습들이 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/829.html",
+      "date": 1789689600,
+      "description": "기타 게임",
+      "source_id": "829",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 웨이니발이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/828.html",
+      "date": 1789689600,
+      "description": "기타 게임",
+      "source_id": "828",
+      "pub_date": ""
+    },
+    {
+      "title": "시즌 17 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/832.html",
+      "date": 1789624800,
+      "description": "기타 게임",
+      "source_id": "832",
+      "pub_date": ""
+    },
+    {
+      "title": "점검 종료 알림",
+      "url": "https://news.pokemon-home.com/ko/page/857.html",
+      "date": 1789542000,
+      "description": "점검",
+      "source_id": "857",
+      "pub_date": ""
+    }
+  ]
+}
