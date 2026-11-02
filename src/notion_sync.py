@@ -194,11 +194,6 @@ def validate_properties():
     )
     find_property(
         properties,
-        "수집일",
-        "date"
-    )
-    find_property(
-        properties,
         "출처",
         "url"
     )
