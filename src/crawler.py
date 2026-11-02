@@ -4,12 +4,11 @@ import hashlib
 import re
 from pathlib import Path
 from datetime import datetime, timezone
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
+from xml.etree.ElementTree import Element, SubElement, ElementTree
 
 import requests
-import feedparser
 from bs4 import BeautifulSoup
-from xml.etree.ElementTree import Element, SubElement, ElementTree
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config" / "sites.json"
@@ -18,7 +17,8 @@ FEEDS = ROOT / "feeds"
 FEEDS.mkdir(exist_ok=True)
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; MyRSSManager/1.0)"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+    "Accept-Language": "ko-KR,ko;q=0.9"
 }
 
 
@@ -33,23 +33,35 @@ def fetch_site(site):
     soup = BeautifulSoup(response.text, "html.parser")
 
     items = []
+    seen = set()
 
-    for article in soup.select("article, .news-item, .post"):
-        link = article.find("a", href=True)
-        if not link:
+    for link in soup.find_all("a", href=True):
+        url = urljoin(site["url"], link["href"])
+        parsed = urlparse(url)
+
+        # Pokémon GO 뉴스 개별 게시물 주소만 수집
+        if not re.search(r"/ko/news/[^/?#]+", parsed.path):
             continue
 
-        title = article.get_text(" ", strip=True)
+        title = link.get_text(" ", strip=True)
 
         if not title:
+            title = link.get("aria-label", "").strip()
+
+        if not title:
+            title = link.get("title", "").strip()
+
+        if not title or url in seen:
             continue
 
-        url = urljoin(site["url"], link["href"])
+        seen.add(url)
 
         items.append({
             "title": title,
             "url": url
         })
+
+    print(f"발견한 뉴스 링크: {len(items)}개")
 
     return items
 
@@ -70,8 +82,8 @@ def make_feed(site, items):
         SubElement(entry, "title").text = item["title"]
         SubElement(entry, "link").text = item["url"]
 
-        guid = hashlib.md5(
-            item["url"].encode()
+        guid = hashlib.sha256(
+            item["url"].encode("utf-8")
         ).hexdigest()
 
         SubElement(entry, "guid").text = guid
