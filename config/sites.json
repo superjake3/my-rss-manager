@@ -8,6 +8,15 @@
       "interval_minutes": 60,
       "parser": "auto",
       "max_items": 30
+    },
+    {
+      "id": "pokemon-news",
+      "name": "포켓몬 본가 소식",
+      "url": "https://news.pokemon-home.com/ko/list",
+      "enabled": true,
+      "interval_minutes": 60,
+      "parser": "auto",
+      "max_items": 30
     }
   ]
 }
