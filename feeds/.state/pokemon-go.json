@@ -1,7 +1,7 @@
 {
   "site_id": "pokemon-go",
   "site_name": "Pokemon GO 공식 뉴스",
-  "updated_at": "2026-11-02T22:02:46.853261+00:00",
+  "updated_at": "2026-11-03T03:45:54.502146+00:00",
   "items": [
     {
       "title": "올가을 수원에서 만나요! “Pokémon GO 와일드 에리어: 글로벌” 기념 한국 현장 이벤트",
@@ -254,6 +254,14 @@
     {
       "title": "별빛 아래서 펼쳐지는 \"황혼의 소원\" 이벤트!",
       "url": "https://pokemongo.com/ko/news/twilight-wishes-2026",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "트레이너 프로필의 배경, 새로운 의상 아이템 등 흥미진진한 \"Pokémon GO 와일드 에리어 2026\" 새 소식을 확인하세요!",
+      "url": "https://pokemongo.com/ko/news/get-ready-for-gowildarea-2026",
       "date": "",
       "description": "",
       "source_id": "",
