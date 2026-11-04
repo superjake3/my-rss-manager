@@ -1,8 +1,40 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-04T03:37:29.742721+00:00",
+  "updated_at": "2026-11-04T11:40:24.169126+00:00",
   "items": [
+    {
+      "title": "「Monthly Challenge Series 2026.11」 개최!",
+      "url": "https://news.pokemon-home.com/ko/page/869.html",
+      "date": 1793764800,
+      "description": "온라인 대회",
+      "source_id": "869",
+      "pub_date": ""
+    },
+    {
+      "title": "배틀 패스 「시즌 M-8」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/868.html",
+      "date": 1793764800,
+      "description": "배틀 패스",
+      "source_id": "868",
+      "pub_date": ""
+    },
+    {
+      "title": "「랭크배틀 시즌 M-8」 개최 중!",
+      "url": "https://news.pokemon-home.com/ko/page/867.html",
+      "date": 1793764800,
+      "description": "랭크배틀",
+      "source_id": "867",
+      "pub_date": ""
+    },
+    {
+      "title": "11월 4일(수) 「Pokémon Champions」 업데이트 데이터 배포 안내",
+      "url": "https://news.pokemon-home.com/ko/page/866.html",
+      "date": 1793764800,
+      "description": "점검",
+      "source_id": "866",
+      "pub_date": ""
+    },
     {
       "title": "점검 실시 알림",
       "url": "https://news.pokemon-home.com/ko/page/865.html",
