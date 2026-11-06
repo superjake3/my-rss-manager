@@ -1,8 +1,16 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-06T01:51:40.912079+00:00",
+  "updated_at": "2026-11-06T08:39:46.722501+00:00",
   "items": [
+    {
+      "title": "목표 달성! 비비용(볼의 모양)을 선물 중!",
+      "url": "https://news.pokemon-home.com/ko/page/874.html",
+      "date": 1793944800,
+      "description": "기타 게임",
+      "source_id": "874",
+      "pub_date": ""
+    },
     {
       "title": "검은 결정 테라 레이드배틀에 최강의 미끄래곤이 재등장 중!",
       "url": "https://news.pokemon-home.com/ko/page/861.html",
