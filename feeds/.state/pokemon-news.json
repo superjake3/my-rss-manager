@@ -1,8 +1,16 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-05T21:38:09.792415+00:00",
+  "updated_at": "2026-11-06T01:51:40.912079+00:00",
   "items": [
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 미끄래곤이 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/861.html",
+      "date": 1793923200,
+      "description": "기타 게임",
+      "source_id": "861",
+      "pub_date": ""
+    },
     {
       "title": "「Monthly Challenge Series 2026.11」 개최!",
       "url": "https://news.pokemon-home.com/ko/page/869.html",
