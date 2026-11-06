@@ -1,7 +1,7 @@
 {
   "site_id": "pokemon-go",
   "site_name": "Pokemon GO 공식 뉴스",
-  "updated_at": "2026-11-06T16:25:15.927482+00:00",
+  "updated_at": "2026-11-06T21:49:53.911139+00:00",
   "items": [
     {
       "title": "올가을 수원에서 만나요! “Pokémon GO 와일드 에리어: 글로벌” 기념 한국 현장 이벤트",
@@ -286,6 +286,14 @@
     {
       "title": "\"픽시 슈퍼 메가 레이드 데이\"에는 달빛 아래에서 춤을 추세요!",
       "url": "https://pokemongo.com/ko/news/clefable-super-mega-raid-day-2026",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "이번 주말 한정! 11월 6일~8일에 로그인하고 \"거다이맥스 괴력몬\"을 만날 수 있는 무료 시간제한 리서치에 도전하세요!",
+      "url": "https://pokemongo.com/ko/news/gowildarea-2026-timed-research",
       "date": "",
       "description": "",
       "source_id": "",
