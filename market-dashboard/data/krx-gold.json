@@ -1,0 +1,7 @@
+{
+  "source": "KRX Open API",
+  "base_date": null,
+  "price_krw_g": null,
+  "fetched_at": null,
+  "notice": "Add GitHub repository secret KRX_AUTH_KEY and run the Update KRX Gold Market Price workflow."
+}
