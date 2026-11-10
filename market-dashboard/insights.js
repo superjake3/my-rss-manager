@@ -29,10 +29,10 @@ function renderDailyLesson() {
   const box=el("dailyLesson"); if(!box)return;
   if(historyRows.length<2){box.textContent="서로 다른 거래일의 데이터가 2개 이상 쌓이면 국제 금과 환율이 국내 금 가격에 미친 영향을 비교해 드립니다.";return;}
   const a=historyRows[historyRows.length-2],b=historyRows[historyRows.length-1];
-  const g=changePct(Number(b.gold_usd_oz),Number(a.gold_usd_oz)),f=changePct(Number(b.usdkrw),Number(a.usdkrw));
-  const k=changePct(Number(b.krx_krw_g),Number(a.krx_krw_g)),s=changePct(Number(b.spot_krw_g),Number(a.spot_krw_g));
-  const gapA=Number(a.krx_krw_g)-Number(a.spot_krw_g),gapB=Number(b.krx_krw_g)-Number(b.spot_krw_g);
-  const gapMove=Number.isFinite(gapA)&&Number.isFinite(gapB)?gapB-gapA:null,lines=[];
+  const g=changePct(b.gold_usd_oz,a.gold_usd_oz),f=changePct(b.usdkrw,a.usdkrw);
+  const k=changePct(b.krx_krw_g,a.krx_krw_g),s=changePct(b.spot_krw_g,a.spot_krw_g);
+  const gapA=a.krx_krw_g!=null&&a.spot_krw_g!=null?Number(a.krx_krw_g)-Number(a.spot_krw_g):null,gapB=b.krx_krw_g!=null&&b.spot_krw_g!=null?Number(b.krx_krw_g)-Number(b.spot_krw_g):null;
+  const gapMove=gapA!==null&&gapB!==null?gapB-gapA:null,lines=[];
   if(g!==null&&f!==null){
     if(g*f<0) lines.push("국제 금과 환율이 반대 방향으로 움직여 서로의 영향을 일부 상쇄했습니다.");
     else if(Math.abs(g)>Math.abs(f)) lines.push("원화 기준 국제 금 가격 변화에서는 국제 금 가격의 움직임이 환율보다 크게 작용했습니다.");
