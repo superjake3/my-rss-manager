@@ -23,5 +23,16 @@
 <article class="panel chart-panel"><div class="chart-heading"><div><div class="panel-title">국제 금 가격 기록</div><div id="chartCaption" class="panel-note">앱을 켜 둔 동안 수집한 USD/oz 기록</div></div><span class="live-tag">XAU</span></div><svg id="goldChart" viewBox="0 0 720 220" role="img" aria-label="국제 금 가격 기록 그래프"></svg></article>
 <article class="panel explain-panel"><div class="panel-title">지표를 읽는 방법</div><ul><li><strong>국제 금</strong> — 달러 기준 금 가격.</li><li><strong>USD/KRW</strong> — 달러당 원화 환율.</li><li><strong>KRX 금시장</strong> — 한국거래소 금 현물시장에서 형성된 일별 종가(원/g).</li><li><strong>DOMESTIC PRICE GAP</strong> — KRX 종가와 국제 금 원화 환산 기준가의 차이. 두 데이터의 기준 시각이 다를 수 있어 참고 지표로 봐야 함.</li></ul></article>
 </section>
+<section id="learningView" class="learning-view">
+<div class="section-title"><div><div class="eyebrow">LEARN THE MARKET</div><h2>시장 흐름 분석</h2></div><span id="historyCount" class="history-count">데이터 대기 중</span></div>
+<div class="insight-grid">
+<article class="panel"><div class="panel-title">KRX 금 · 7거래일</div><div id="krx7d" class="insight-change flat">—</div><div class="panel-note">최근 거래일 기준</div></article>
+<article class="panel"><div class="panel-title">KRX 금 · 30거래일</div><div id="krx30d" class="insight-change flat">—</div><div class="panel-note">최근 거래일 기준</div></article>
+<article class="panel"><div class="panel-title">국제 환산 금 · 7거래일</div><div id="spot7d" class="insight-change flat">—</div><div class="panel-note">USD 금 × 환율</div></article>
+<article class="panel"><div class="panel-title">원·달러 환율 · 7거래일</div><div id="fx7d" class="insight-change flat">—</div><div class="panel-note">USD/KRW</div></article>
+</div>
+<article class="panel chart-panel"><div class="chart-heading"><div><div class="panel-title">KRX 금 가격 · 최근 30거래일</div><div id="historyLatest" class="panel-note">데이터 대기 중</div></div><span class="live-tag">KRX</span></div><svg id="historyChart" viewBox="0 0 720 220" role="img" aria-label="KRX 금시장 최근 30거래일 가격 그래프"></svg></article>
+<article class="panel explain-panel"><div class="panel-title">TODAY'S MARKET NOTE · 오늘의 시장 해석</div><div id="dailyLesson" class="daily-lesson">데이터가 쌓이면 국제 금 가격과 환율이 국내 금 가격에 미친 영향을 비교해 드립니다.</div><div class="panel-note">가격 변화에 기반한 학습용 해석이며, 시장 움직임의 원인을 확정하거나 투자 신호를 제공하지 않습니다.</div></article>
+</section>
 <footer><p>데이터는 참고용 지표이며 실제 매수·매도 체결가가 아닙니다.</p><p>Gold: <a href="https://xaus.com/api/" target="_blank" rel="noopener">XAUS</a> · FX: <a href="https://fxapi.app/" target="_blank" rel="noopener">fxapi.app</a> · KRX: <a href="https://openapi.krx.co.kr/" target="_blank" rel="noopener">한국거래소 Open API</a></p><p>KRX 금 가격은 거래소 일별 종가이며 실시간 호가가 아닙니다. 데이터 갱신 시차를 확인해 주세요.</p></footer>
-</main><script src="./app.js"></script></body></html>
+</main><script src="./app.js"></script><script src="./insights.js"></script></body></html>
