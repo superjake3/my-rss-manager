@@ -1,0 +1,60 @@
+name: Update KRX Gold Market Price
+on:
+  schedule:
+    - cron: "20 4 * * 1-5"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch latest KRX gold close
+        env:
+          KRX_AUTH_KEY: ${{ secrets.KRX_AUTH_KEY }}
+        run: |
+          python - <<'PY'
+          import datetime, json, os, time, urllib.request
+          from zoneinfo import ZoneInfo
+          key = os.environ.get("KRX_AUTH_KEY", "").strip()
+          if not key:
+              raise SystemExit("Missing repository secret: KRX_AUTH_KEY")
+          url = "https://data-dbg.krx.co.kr/svc/apis/gen/gold_bydd_trd"
+          today = datetime.datetime.now(ZoneInfo("Asia/Seoul")).date()
+          payload = None
+          for offset in range(0, 12):
+              day = today - datetime.timedelta(days=offset)
+              if day.weekday() >= 5:
+                  continue
+              req = urllib.request.Request(url, data=json.dumps({"basDd": day.strftime("%Y%m%d")}).encode(), headers={"AUTH_KEY": key, "Content-Type": "application/json"})
+              try:
+                  with urllib.request.urlopen(req, timeout=25) as response:
+                      body = json.loads(response.read().decode("utf-8-sig"))
+                  rows = body.get("OutBlock_1") or body.get("output") or []
+                  if isinstance(rows, dict):
+                      rows = [rows]
+                  if rows:
+                      candidates = [r for r in rows if "금 99.99_1kg" in str(r.get("ISU_NM", "")) or "금 99.99" in str(r.get("ISU_NM", ""))]
+                      row = candidates[0] if candidates else rows[0]
+                      raw = str(row.get("TDD_CLSPRC", "")).replace(",", "").strip()
+                      price = float(raw)
+                      if price > 0:
+                          payload = {"source":"KRX Open API","base_date":row.get("BAS_DD",day.strftime("%Y%m%d")),"price_krw_g":price,"change_krw":row.get("CMPPREVDD_PRC"),"change_rate":row.get("FLUC_RT"),"fetched_at":datetime.datetime.now(ZoneInfo("Asia/Seoul")).isoformat(timespec="seconds")}
+                          break
+              except Exception as exc:
+                  print(f"{day}: {exc}")
+              time.sleep(1)
+          if payload is None:
+              raise SystemExit("Could not retrieve KRX gold market data from the last 12 calendar days")
+          os.makedirs("market-dashboard/data", exist_ok=True)
+          with open("market-dashboard/data/krx-gold.json", "w", encoding="utf-8") as f:
+              json.dump(payload, f, ensure_ascii=False, indent=2)
+          print(json.dumps(payload, ensure_ascii=False))
+          PY
+      - name: Commit updated market data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add market-dashboard/data/krx-gold.json
+          git diff --cached --quiet || (git commit -m "Update KRX gold market price" && git push)
