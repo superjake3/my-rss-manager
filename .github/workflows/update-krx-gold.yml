@@ -1,7 +1,7 @@
 name: Update KRX Gold Market Price
 on:
   schedule:
-    - cron: "20 4 * * 1-5"
+    - cron: "10 7 * * 1-5"
   workflow_dispatch:
 permissions:
   contents: write
@@ -50,7 +50,51 @@ jobs:
           os.makedirs("market-dashboard/data", exist_ok=True)
           with open("market-dashboard/data/krx-gold.json", "w", encoding="utf-8") as f:
               json.dump(payload, f, ensure_ascii=False, indent=2)
-          print(json.dumps(payload, ensure_ascii=False))
+
+          # Collect a once-daily snapshot for learning and historical comparison.
+          gold_usd_oz = None
+          usdkrw = None
+          try:
+              req = urllib.request.Request("https://xaus.com/api/v1/spot?compact=1", headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=20) as response:
+                  gold_data = json.loads(response.read().decode("utf-8"))
+              value = gold_data.get("spot_usd_oz") or (gold_data.get("xau") or {}).get("price")
+              gold_usd_oz = float(value) if value is not None else None
+          except Exception as exc:
+              print(f"International gold snapshot unavailable: {exc}")
+          try:
+              req = urllib.request.Request("https://fxapi.app/api/usd/krw.json", headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=20) as response:
+                  fx_data = json.loads(response.read().decode("utf-8"))
+              value = fx_data.get("rate")
+              usdkrw = float(value) if value is not None else None
+          except Exception as exc:
+              print(f"USD/KRW snapshot unavailable: {exc}")
+
+          spot_krw_g = (gold_usd_oz * usdkrw / 31.1034768) if gold_usd_oz and usdkrw else None
+          history_path = "market-dashboard/data/market-history.json"
+          try:
+              with open(history_path, encoding="utf-8") as f:
+                  history = json.load(f)
+          except (FileNotFoundError, json.JSONDecodeError):
+              history = {"source": "KRX Open API + XAUS + fxapi.app", "records": []}
+          records = history.get("records", [])
+          record = {
+              "base_date": str(payload["base_date"]),
+              "krx_krw_g": payload["price_krw_g"],
+              "gold_usd_oz": gold_usd_oz,
+              "usdkrw": usdkrw,
+              "spot_krw_g": round(spot_krw_g, 2) if spot_krw_g else None,
+              "fetched_at": payload["fetched_at"]
+          }
+          records = [r for r in records if str(r.get("base_date")) != str(record["base_date"])]
+          records.append(record)
+          records.sort(key=lambda r: str(r.get("base_date", "")))
+          history["records"] = records[-365:]
+          history["updated_at"] = payload["fetched_at"]
+          with open(history_path, "w", encoding="utf-8") as f:
+              json.dump(history, f, ensure_ascii=False, indent=2)
+          print(json.dumps({"krx": payload, "history_record": record}, ensure_ascii=False))
           PY
       - name: Commit updated market data
         run: |
