@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#101511"><meta name="description" content="국제 금, 원화 환산 기준가, 달러 환율 대시보드">
+<meta name="theme-color" content="#101511"><meta name="description" content="국제 금, KRX 금시장 가격, 원화 환율 대시보드">
 <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
 <title>GOLD & FX — Market Dashboard</title>
 </head>
@@ -12,16 +12,16 @@
 <section id="compactView" class="price-grid">
 <article class="price-card gold-card"><div class="card-head"><span>INTERNATIONAL GOLD</span><span class="symbol">XAU/USD</span></div><div id="goldUsd" class="price-main">—</div><div class="unit">USD / TROY OZ</div><div class="subline">1g <strong id="goldUsdGram">—</strong></div></article>
 <article class="price-card fx-card"><div class="card-head"><span>US DOLLAR</span><span class="symbol">USD/KRW</span></div><div id="fxRate" class="price-main">—</div><div class="unit">KRW / USD</div><div class="subline">갱신 시각 <strong id="fxTime">—</strong></div></article>
-<article class="price-card domestic-card"><div class="card-head"><span>KRW SPOT ESTIMATE</span><span class="symbol">KRW / g</span></div><div id="domesticGold" class="price-main">—</div><div class="unit">국제 금 원화 환산 기준가</div><div class="subline">직접 입력한 국내 시세 <strong id="manualGoldLabel">미입력</strong></div></article>
-<article class="price-card compare-card"><div class="card-head"><span>DOMESTIC PRICE GAP</span><span class="symbol">vs SPOT</span></div><div id="premium" class="price-main">—</div><div class="unit">입력한 국내 시세 기준</div><div class="subline">실제 국내 시세 입력 시 비교</div></article>
+<article class="price-card domestic-card"><div class="card-head"><span>KRX GOLD MARKET</span><span class="symbol">KRW / g</span></div><div id="domesticGold" class="price-main">—</div><div class="unit">한국거래소 금시장 종가</div><div class="subline">기준일 <strong id="krxDateLabel">불러오는 중</strong></div></article>
+<article class="price-card compare-card"><div class="card-head"><span>DOMESTIC PRICE GAP</span><span class="symbol">KRX vs SPOT</span></div><div id="premium" class="price-main">—</div><div id="premiumRate" class="unit">—</div><div class="subline" id="gapCaption">KRX 가격과 국제 환산가 비교</div></article>
 </section>
 <section id="toolbar" class="toolbar"><button id="detailBtn" class="primary-btn">상세 분석 보기 <span>↗</span></button><button id="installBtn" class="secondary-btn" hidden>홈 화면에 추가</button></section>
 <section id="detailView" class="detail-view" hidden>
 <div class="section-title"><div><div class="eyebrow">MARKET ANALYSIS</div><h2>가격 흐름과 비교</h2></div><button id="backBtn" class="text-btn">간편 화면</button></div>
 <div class="analysis-grid"><article class="panel"><div class="panel-title">국제 금 원화 환산</div><div id="convertedGold" class="panel-value">—</div><div class="panel-note">국제 금(USD/oz) × USD/KRW ÷ 31.1034768</div></article><article class="panel"><div class="panel-title">금 1돈 환산</div><div id="goldDon" class="panel-value">—</div><div class="panel-note">1돈 = 3.75g · 국제 금 환산 기준</div></article></div>
+<article class="panel"><div class="panel-title">KRX 금시장 가격</div><div id="krxDetailValue" class="panel-value">—</div><div id="krxDetailDate" class="panel-note">공식 데이터 수신 대기 중</div><div class="panel-note">한국거래소 금 99.99% 종목의 일별 종가 · 원/g</div></article>
 <article class="panel chart-panel"><div class="chart-heading"><div><div class="panel-title">국제 금 가격 기록</div><div id="chartCaption" class="panel-note">앱을 켜 둔 동안 수집한 USD/oz 기록</div></div><span class="live-tag">XAU</span></div><svg id="goldChart" viewBox="0 0 720 220" role="img" aria-label="국제 금 가격 기록 그래프"></svg></article>
-<article class="panel"><div class="panel-title">국내 금 시세 직접 입력</div><p class="panel-note">KRX 금시장 가격이나 금은방 시세 등 실제 비교하려는 출처의 원/g 가격을 입력해 줘. 값은 이 기기의 브라우저에 저장돼.</p><div class="input-row"><label for="manualGold">국내 금 가격 (원/g)</label><input id="manualGold" type="number" inputmode="decimal" min="0" step="1" placeholder="예: 177960"><button id="saveManualBtn" class="primary-btn">저장</button></div><div id="manualStatus" class="panel-note"></div></article>
-<article class="panel explain-panel"><div class="panel-title">지표를 읽는 방법</div><ul><li><strong>국제 금</strong> — 달러 기준 금 가격.</li><li><strong>USD/KRW</strong> — 달러당 원화 환율.</li><li><strong>원화 환산가</strong> — 국제 금과 환율로 계산한 이론 기준가이며 국내 실거래가가 아님.</li><li><strong>국내 가격 차이</strong> — 직접 입력한 국내 가격과 환산 기준가의 차이. 세금·수수료는 포함하지 않음.</li></ul></article>
+<article class="panel explain-panel"><div class="panel-title">지표를 읽는 방법</div><ul><li><strong>국제 금</strong> — 달러 기준 금 가격.</li><li><strong>USD/KRW</strong> — 달러당 원화 환율.</li><li><strong>KRX 금시장</strong> — 한국거래소 금 현물시장에서 형성된 일별 종가(원/g).</li><li><strong>DOMESTIC PRICE GAP</strong> — KRX 종가와 국제 금 원화 환산 기준가의 차이. 두 데이터의 기준 시각이 다를 수 있어 참고 지표로 봐야 함.</li></ul></article>
 </section>
-<footer><p>데이터는 참고용 지표이며 실제 매수·매도 체결가가 아닙니다.</p><p>Gold: <a href="https://xaus.com/api/" target="_blank" rel="noopener">XAUS</a> · FX: <a href="https://fxapi.app/" target="_blank" rel="noopener">fxapi.app</a></p><p>국내 금 실제 시세는 자동 연동되지 않습니다. 현재 KRW/g 값은 국제 금 가격과 환율을 이용한 환산 기준가입니다.</p></footer>
+<footer><p>데이터는 참고용 지표이며 실제 매수·매도 체결가가 아닙니다.</p><p>Gold: <a href="https://xaus.com/api/" target="_blank" rel="noopener">XAUS</a> · FX: <a href="https://fxapi.app/" target="_blank" rel="noopener">fxapi.app</a> · KRX: <a href="https://openapi.krx.co.kr/" target="_blank" rel="noopener">한국거래소 Open API</a></p><p>KRX 금 가격은 거래소 일별 종가이며 실시간 호가가 아닙니다. 데이터 갱신 시차를 확인해 주세요.</p></footer>
 </main><script src="./app.js"></script></body></html>
