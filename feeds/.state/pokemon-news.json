@@ -1,8 +1,16 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-12T13:23:45.963790+00:00",
+  "updated_at": "2026-11-12T21:12:09.438624+00:00",
   "items": [
+    {
+      "title": "색이 다른 제르네아스를 선물!",
+      "url": "https://news.pokemon-home.com/ko/page/876.html",
+      "date": 1794492000,
+      "description": "기타 게임",
+      "source_id": "876",
+      "pub_date": ""
+    },
     {
       "title": "목표 달성! 비비용(볼의 모양)을 선물 중!",
       "url": "https://news.pokemon-home.com/ko/page/874.html",
