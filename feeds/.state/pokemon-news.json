@@ -1,8 +1,16 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-12T21:12:09.438624+00:00",
+  "updated_at": "2026-11-13T02:13:28.736349+00:00",
   "items": [
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 짜랑고우거가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/862.html",
+      "date": 1794528000,
+      "description": "기타 게임",
+      "source_id": "862",
+      "pub_date": ""
+    },
     {
       "title": "색이 다른 제르네아스를 선물!",
       "url": "https://news.pokemon-home.com/ko/page/876.html",
