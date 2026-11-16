@@ -1,7 +1,7 @@
 {
   "site_id": "pokemon-go",
   "site_name": "Pokemon GO 공식 뉴스",
-  "updated_at": "2026-11-16T07:25:47.555822+00:00",
+  "updated_at": "2026-11-16T17:36:12.769654+00:00",
   "items": [
     {
       "title": "올가을 수원에서 만나요! “Pokémon GO 와일드 에리어: 글로벌” 기념 한국 현장 이벤트",
@@ -310,6 +310,14 @@
     {
       "title": "다음 시즌의 커뮤니티 데이 일정을 안내합니다!",
       "url": "https://pokemongo.com/ko/news/save-the-date-s25",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "크록스의 새로운 포켓몬 컬렉션이 \"Pokémon GO\"를 찾아옵니다!",
+      "url": "https://pokemongo.com/ko/news/pokemon-crocs-2026",
       "date": "",
       "description": "",
       "source_id": "",
