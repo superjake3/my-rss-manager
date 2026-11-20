@@ -1,8 +1,16 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-19T23:57:59.115200+00:00",
+  "updated_at": "2026-11-20T05:28:50.514687+00:00",
   "items": [
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 드래펄트가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/863.html",
+      "date": 1795132800,
+      "description": "기타 게임",
+      "source_id": "863",
+      "pub_date": ""
+    },
     {
       "title": "12월 2일(수) 배틀 밸런스 조정 안내",
       "url": "https://news.pokemon-home.com/ko/page/877.html",
