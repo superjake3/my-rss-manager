@@ -1,7 +1,7 @@
 {
   "site_id": "pokemon-go",
   "site_name": "Pokemon GO 공식 뉴스",
-  "updated_at": "2026-11-20T14:29:32.642044+00:00",
+  "updated_at": "2026-11-20T22:01:39.829664+00:00",
   "items": [
     {
       "title": "올가을 수원에서 만나요! “Pokémon GO 와일드 에리어: 글로벌” 기념 한국 현장 이벤트",
@@ -326,6 +326,14 @@
     {
       "title": "\"Pokémon GO\", 듀오링고와 함께 새로운 언어를 배워요!",
       "url": "https://pokemongo.com/ko/news/duolingo-2026",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "2026년 \"커뮤니티 데이\"에 등장했던 포켓몬들과 함께 한 해를 마무리하세요!",
+      "url": "https://pokemongo.com/ko/news/community-day-december-2026",
       "date": "",
       "description": "",
       "source_id": "",
