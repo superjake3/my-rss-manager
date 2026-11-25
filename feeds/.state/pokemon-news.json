@@ -1,8 +1,16 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-25T01:10:06.789642+00:00",
+  "updated_at": "2026-11-25T10:37:35.212259+00:00",
   "items": [
+    {
+      "title": "「레귤레이션 M-D」에 대해",
+      "url": "https://news.pokemon-home.com/ko/page/878.html",
+      "date": 1795572000,
+      "description": "레귤레이션",
+      "source_id": "878",
+      "pub_date": ""
+    },
     {
       "title": "검은 결정 테라 레이드배틀에 최강의 드래펄트가 재등장 중!",
       "url": "https://news.pokemon-home.com/ko/page/863.html",
