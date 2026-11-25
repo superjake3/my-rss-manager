@@ -1,7 +1,7 @@
 {
   "site_id": "pokemon-go",
   "site_name": "Pokemon GO 공식 뉴스",
-  "updated_at": "2026-11-24T16:37:02.222774+00:00",
+  "updated_at": "2026-11-25T01:10:06.378649+00:00",
   "items": [
     {
       "title": "올가을 수원에서 만나요! “Pokémon GO 와일드 에리어: 글로벌” 기념 한국 현장 이벤트",
@@ -350,6 +350,30 @@
     {
       "title": "\"GO배틀리그: 꿈꾸던 길\" 최신 소식",
       "url": "https://pokemongo.com/ko/news/go-battle-league-daydream-destinations",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "\"꿈꾸던 길\" 시즌에는 \"선택 시간제한 리서치\"로 자유롭게 탐험하세요!",
+      "url": "https://pokemongo.com/ko/news/choose-your-path-daydream-destinations-2026",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "\"GO패스: 12월\"에 알찬 리워드가 기다립니다!",
+      "url": "https://pokemongo.com/ko/news/go-pass-december-2026",
+      "date": "",
+      "description": "",
+      "source_id": "",
+      "pub_date": ""
+    },
+    {
+      "title": "12월의 최신 정보",
+      "url": "https://pokemongo.com/ko/news/monthly-content-update-dec2026",
       "date": "",
       "description": "",
       "source_id": "",
