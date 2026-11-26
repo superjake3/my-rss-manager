@@ -1,8 +1,16 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-25T20:16:31.508820+00:00",
+  "updated_at": "2026-11-26T01:59:26.403989+00:00",
   "items": [
+    {
+      "title": "「Pokémon GO」 연동 캠페인! 윌로우박사 코디 웨어 세트를 손에 넣자!",
+      "url": "https://news.pokemon-home.com/ko/page/879.html",
+      "date": 1795640400,
+      "description": "소식",
+      "source_id": "879",
+      "pub_date": ""
+    },
     {
       "title": "「레귤레이션 M-D」에 대해",
       "url": "https://news.pokemon-home.com/ko/page/878.html",
