@@ -1,8 +1,24 @@
 {
   "site_id": "pokemon-news",
   "site_name": "포켓몬 본가 소식",
-  "updated_at": "2026-11-26T22:39:40.377300+00:00",
+  "updated_at": "2026-11-27T04:38:10.519468+00:00",
   "items": [
+    {
+      "title": "【예고】굽이치는물결&무쇠잎새가 재등장!",
+      "url": "https://news.pokemon-home.com/ko/page/891.html",
+      "date": 1795737600,
+      "description": "기타 게임",
+      "source_id": "891",
+      "pub_date": ""
+    },
+    {
+      "title": "검은 결정 테라 레이드배틀에 최강의 드닐레이브가 재등장 중!",
+      "url": "https://news.pokemon-home.com/ko/page/864.html",
+      "date": 1795737600,
+      "description": "기타 게임",
+      "source_id": "864",
+      "pub_date": ""
+    },
     {
       "title": "「Pokémon GO」 연동 캠페인! 윌로우박사 코디 웨어 세트를 손에 넣자!",
       "url": "https://news.pokemon-home.com/ko/page/879.html",
